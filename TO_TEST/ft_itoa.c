@@ -1,56 +1,44 @@
 #include "libft.h"
-char		*ft_itoa(int n)
-{
-	char	*str;
 
-	if (!(str = (char *)malloc(sizeof(char) * 2)))
-		return (NULL);
-	if (n == -2147483648)
-		return (ft_strcpy(str, "-2147483648"));
-		if (n < 0)
+int	number_len(int n)
+{
+	int	len;
+
+	len = 0;
+	if (n <= 0)
+		len++;
+	while (n)
 	{
-		str[0] = '-';
-		str[1] = '\0';
-		str = ft_strjoin(str, ft_itoa(-n));
+		len++;
+		n = n / 10;
 	}
-		else if (n >= 10)
-		str = ft_strjoin(ft_itoa(n / 10), ft_itoa(n % 10));
-	else if (n < 10 && n >= 0)
-	{
-		str[0] = n + '0';
-		str[1] = '\0';
-	}
-	return (str);
+	return (len);
 }
 
-static void	ft_putnbr_stock(long n, char *str, int *i)
+char	*ft_itoa(int n)
 {
-	if (n > 9)
-	{
-		ft_putnbr_stock(n / 10, str, i);
-		ft_putnbr_stock(n % 10, str, i);
-	}
-	else
-		str[(*i)++] = n + '0';
-}
+	int	i;
+	long long	nbr;
+	char	*s;
 
-char		*ft_itoa(int n)
-{
-	char	*str;
-	int		i;
-	long	nbr;
-
+	i = number_len(n);
 	nbr = n;
-	if ((str = malloc(sizeof(char) * (ft_nbrlen(nbr) + 1))) == NULL)
+	s = (char *)malloc(sizeof(char) * (i + 1));
+	if (!s)
 		return (NULL);
-	i = 0;
 	if (nbr < 0)
 	{
-		str[i++] = '-';
-		nbr *= -1;
+		s[0] = '-';
+		nbr = -nbr;
 	}
-	ft_putnbr_stock(nbr, str, &i);
-	str[i] = '\0';
-	return (str);
+	if (nbr == 0)
+		s[0] = '0';
+	s[i--] = '\0';
+	while (nbr)
+	{
+		s[i] = nb % 10 + '0';
+		len--;
+		nbr = nbr / 10;
+	}
+	return (s);
 }
-
