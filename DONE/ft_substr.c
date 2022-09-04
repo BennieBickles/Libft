@@ -15,5 +15,5 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[len] = '\0';
 	if (start > ft_strlen(s))
 		return (str);
-	return (ft_strncpy(str, s + start, len));
+	return (ft_strlcpy(str, s + start, len));
 }
