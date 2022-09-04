@@ -9,6 +9,6 @@ char	*ft_strdup(const char *s)
 	if (s1 == NULL)
 		return (NULL);
 	else
-		s1 = ft_strcpy(s1, s);
+		*s1 = ft_strlcpy(s1, s, ft_strlen(s1));
 	return (s1);
 }

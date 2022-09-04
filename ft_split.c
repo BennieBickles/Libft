@@ -46,7 +46,7 @@ char			**ft_split(char const *s, char c)
 		return (NULL);
 	if (!(str = (char**)malloc(sizeof(char*) * (count(s, c) + 1))))
 		return (NULL);
-	while (++i < (int)count(s, c))
+	while (++i < (size_t)count(s, c))
 	{
 		while (s[k] && s[k] == c)
 			k++;
