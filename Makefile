@@ -36,15 +36,31 @@ SRC =	ft_atoi.c\
 	ft_strlcat.c\
 	ft_strncmp.c\
 	ft_substr.c
+
 OBJS = $(SRC:.c=.o)
+
+BONUS = ft_lstnew.c\
+	ft_lstadd_front.c\
+	ft_lstsize.c\
+	ft_lstlast.c\
+	ft_lstadd_back.c\
+	ft_lstdelone.c\
+	ft_lstclear.c\
+	ft_lstiter.c\
+	ft_lstmap.c
+
+BONUS_OBJS = $(BONUS:.c=.o)
 
 all: $(NAME)
 
 $(NAME): $(OBJS) $(INC)
 	ar -rc $(NAME) $(OBJS)
+
+bonus: $(NAME) $(BONUS_OBJS) $(INC)
+	ar -rc $(NAME) $(BONUS_OBJS)
 	
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) $(BONUS_OBJS)
 
 fclean:clean
 	rm -f $(NAME)
