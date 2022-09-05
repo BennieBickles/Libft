@@ -73,19 +73,25 @@ $(NAME): $(OBJS)
 	@ar rc $(NAME) $(OBJS)
 	@ranlib $(NAME)
 	@echo
-	@echo "$(GREEN) --------------Libft successfully created !--------------\n$(RESET)"
+	@echo "$(LOG_GREEN) >>>----------- Libft successfully created ! -----------<<<\n$(RESET)"
+	@echo
 
 bonus:  $(NAME) $(BONUS_OBJS)
 	@echo "Compiling \033[42m"Bonus"\033[0m..."
 	@ar -rc $(NAME) $(BONUS_OBJS)
+	@echo "$(LOG_GREEN) >>>----------- Bonus successfully created ! -----------<<<\n"
 	@echo
-	@echo "$(GREEN) --------------Bonus successfully done !--------------\n$(RESET)"
+	@echo "$(LOG_WHITE) *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*"
+	@echo "*                                                            *"
+	@echo "$(LOG_WHITE)*  $(LOG_YELLOW)>>>>>>>>>>-------------- SUCCESS --------------<<<<<<<<<  $(LOG_WHITE)*"
+	@echo "*                                                            *"
+	@echo " *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-* $(RESET)"
 	
 clean:
 	@echo "Removing \033[41m"Libft"\033[0m..."
 	@rm -f $(OBJS) $(BONUS_OBJS)
 	@echo
-	@echo "$(RED) --------------Object files were deleted !--------------$(RESET)\n"
+	@echo "$(LOG_RED) >>>------------ Object files were deleted ! -----------<<<$(RESET)\n"
 
 fclean: clean
 	@rm -f $(NAME)
