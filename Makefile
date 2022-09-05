@@ -55,9 +55,11 @@ all: $(NAME)
 
 $(NAME): $(OBJS) $(INC)
 	ar -rc $(NAME) $(OBJS)
+	@echo "Libft successfully created !"
 
 bonus: $(NAME) $(BONUS_OBJS)
 	ar -rc $(NAME) $(BONUS_OBJS)
+	@echo "Bonus successfully done !"
 	
 clean:
 	rm -f $(OBJS) $(BONUS_OBJS)
