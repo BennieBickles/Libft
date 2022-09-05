@@ -77,7 +77,7 @@ $(NAME): $(OBJS)
 	@echo
 
 bonus:  $(NAME) $(BONUS_OBJS)
-	@echo "Compiling \033[42m"Bonus"\033[0m..."
+	@echo "Compiling \033[42m"Bonus"\033[0m...\n"
 	@ar -rc $(NAME) $(BONUS_OBJS)
 	@echo "$(LOG_GREEN) >>>----------- Bonus successfully created ! -----------<<<\n"
 	@echo
