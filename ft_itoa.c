@@ -10,7 +10,7 @@ int	number_len(int n)
 	while (n)
 	{
 		len++;
-		n = n / 10;
+		n /= 10;
 	}
 	return (len);
 }
@@ -38,7 +38,7 @@ char	*ft_itoa(int n)
 	{
 		s[i] = nbr % 10 + '0';
 		i--;
-		nbr = nbr / 10;
+		nbr /= 10;
 	}
 	return (s);
 }
