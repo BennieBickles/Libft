@@ -81,9 +81,9 @@ bonus:  $(NAME) $(BONUS_OBJS)
 	@ar -rc $(NAME) $(BONUS_OBJS)
 	@echo "$(LOG_GREEN) >>>----------- Bonus successfully created ! -----------<<<\n"
 	@echo
-	@echo "$(LOG_WHITE) *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*"
+	@echo "$(LOG_YELLOW) *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*"
 	@echo "*                                                            *"
-	@echo "$(LOG_WHITE)*  $(LOG_YELLOW)>>>>>>>>>>-------------- SUCCESS --------------<<<<<<<<<  $(LOG_WHITE)*"
+	@echo "$(LOG_YELLOW) * $(LOG_WHITE)>>>> >>> >> >  ... .. .$(LOG_YELLOW) SUCCESS $(LOG_WHITE). .. ...  < << <<< <<<<  $(LOG_YELLOW)*"
 	@echo "*                                                            *"
 	@echo " *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-* $(RESET)"
 	

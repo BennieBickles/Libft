@@ -1,5 +1,4 @@
 #include "libft.h"
-#include <stdlib.h>
 
 char	**ft_spliter(char *s, size_t num, size_t len)
 {
