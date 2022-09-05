@@ -54,6 +54,17 @@ BONUS_OBJS = $(BONUS:.c=.o)
 GREEN = \033[0;32m
 RED = \033[0;31m
 RESET = \033[0m
+LOG_CLEAR		= \033[2K
+LOG_UP 			= \033[A
+LOG_NOCOLOR		= \033[0m
+LOG_BLACK		= \033[1;30m
+LOG_RED			= \033[1;31m
+LOG_GREEN		= \033[1;32m
+LOG_YELLOW		= \033[1;33m
+LOG_BLUE		= \033[1;34m
+LOG_VIOLET		= \033[1;35m
+LOG_CYAN		= \033[1;36m
+LOG_WHITE		= \033[1;37m
 
 all: $(NAME)
 
@@ -61,17 +72,20 @@ $(NAME): $(OBJS)
 	@echo "Compiling \033[42m"Libft"\033[0m..."
 	@ar rc $(NAME) $(OBJS)
 	@ranlib $(NAME)
-	@echo "$(GREEN) --------------Libft successfully created !--------------$(RESET)"
+	@echo
+	@echo "$(GREEN) --------------Libft successfully created !--------------\n$(RESET)"
 
-bonus:  $(BONUS_OBJS)
+bonus:  $(NAME) $(BONUS_OBJS)
 	@echo "Compiling \033[42m"Bonus"\033[0m..."
 	@ar -rc $(NAME) $(BONUS_OBJS)
-	@echo "$(GREEN) --------------Bonus successfully done !--------------$(RESET)"
+	@echo
+	@echo "$(GREEN) --------------Bonus successfully done !--------------\n$(RESET)"
 	
 clean:
 	@echo "Removing \033[41m"Libft"\033[0m..."
 	@rm -f $(OBJS) $(BONUS_OBJS)
-	@echo "$(RED) --------------Object files were deleted !--------------$(RESET)"
+	@echo
+	@echo "$(RED) --------------Object files were deleted !--------------$(RESET)\n"
 
 fclean: clean
 	@rm -f $(NAME)
