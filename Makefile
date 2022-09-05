@@ -53,9 +53,9 @@ BONUS_OBJS = $(BONUS:.c=.o)
 
 all: $(NAME)
 
-$(NAME): $(OBJS) $(INC)
-	ar -rc $(NAME) $(OBJS)
-	@echo "Libft successfully created !"
+$(NAME): $(OBJS)
+	@ar -rc $(NAME) $(OBJS)
+	@echo "$(NAME) successfully created !"
 
 bonus: $(NAME) $(BONUS_OBJS)
 	ar -rc $(NAME) $(BONUS_OBJS)
@@ -66,6 +66,7 @@ clean:
 
 fclean:clean
 	rm -f $(NAME)
+	@echo "$(NAME) deleted"
 
 re: fclean all
 
