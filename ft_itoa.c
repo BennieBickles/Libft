@@ -17,9 +17,9 @@ int	number_len(int n)
 
 char	*ft_itoa(int n)
 {
-	int	i;
+	int			i;
 	long long	nbr;
-	char	*s;
+	char		*s;
 
 	i = number_len(n);
 	nbr = n;
