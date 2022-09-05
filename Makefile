@@ -51,22 +51,30 @@ BONUS = ft_lstnew.c\
 
 BONUS_OBJS = $(BONUS:.c=.o)
 
+GREEN = \033[0;32m
+RED = \033[0;31m
+RESET = \033[0m
+
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	@ar -rc $(NAME) $(OBJS)
-	@echo "$(NAME) successfully created !"
+	@echo "Compiling \033[42m"Libft"\033[0m..."
+	@ar rc $(NAME) $(OBJS)
+	@ranlib $(NAME)
+	@echo "$(GREEN) --------------Libft successfully created !--------------$(RESET)"
 
-bonus: $(NAME) $(BONUS_OBJS)
-	ar -rc $(NAME) $(BONUS_OBJS)
-	@echo "Bonus successfully done !"
+bonus:  $(BONUS_OBJS)
+	@echo "Compiling \033[42m"Bonus"\033[0m..."
+	@ar -rc $(NAME) $(BONUS_OBJS)
+	@echo "$(GREEN) --------------Bonus successfully done !--------------$(RESET)"
 	
 clean:
-	rm -f $(OBJS) $(BONUS_OBJS)
+	@echo "Removing \033[41m"Libft"\033[0m..."
+	@rm -f $(OBJS) $(BONUS_OBJS)
+	@echo "$(RED) --------------Object files were deleted !--------------$(RESET)"
 
-fclean:clean
-	rm -f $(NAME)
-	@echo "$(NAME) deleted"
+fclean: clean
+	@rm -f $(NAME)
 
 re: fclean all
 
