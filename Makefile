@@ -56,7 +56,7 @@ all: $(NAME)
 $(NAME): $(OBJS) $(INC)
 	ar -rc $(NAME) $(OBJS)
 
-bonus: $(NAME) $(BONUS_OBJS) $(INC)
+bonus: $(NAME) $(BONUS_OBJS)
 	ar -rc $(NAME) $(BONUS_OBJS)
 	
 clean:
