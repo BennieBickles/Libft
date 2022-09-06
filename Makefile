@@ -6,14 +6,14 @@
 #    By: mtortrot <mtortrot@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/06 19:18:38 by mtortrot          #+#    #+#              #
-#    Updated: 2022/09/06 19:18:42 by mtortrot         ###   ########.fr        #
+#    Updated: 2022/09/06 19:41:11 by mtortrot         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME =	libft.a
 INC = libft.h
 CC = gcc
-FLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror
 
 ##############################     FILES     ####################################
 
