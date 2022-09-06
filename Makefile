@@ -76,17 +76,19 @@ all: $(NAME)
 ##############################     COMPIL    ####################################
 
 $(NAME): $(OBJS)
-	@echo "Compiling \033[42m"Libft"\033[0m..."
-	@ar rc $(NAME) $(OBJS)
-	@ranlib $(NAME)
+	@echo "\nCompiling \033[42m"Libft ..."\033[0m"
+	ar rc $(NAME) $(OBJS)
+	ranlib $(NAME)
 	@echo
 	@echo "$(LOG_GREEN) >>>----------- Libft successfully created ! -----------<<<\n$(RESET)"
 	@echo
 
 bonus:  $(NAME) $(BONUS_OBJS)
-	@echo "Compiling \033[42m"Bonus"\033[0m...\n"
-	@ar -rc $(NAME) $(BONUS_OBJS)
-	@echo "$(LOG_GREEN) >>>----------- Bonus successfully created ! -----------<<<\n"
+	@echo
+	@echo "Compiling \033[42m"Bonus ..."\033[0m"
+	ar -rc $(NAME) $(BONUS_OBJS)
+	ranlib $(NAME)
+	@echo "\n$(LOG_GREEN) >>>----------- Bonus successfully created ! -----------<<<\n"
 	@echo
 	@echo "$(LOG_YELLOW) .-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-."
 	@echo "/                                                           \\"
@@ -95,16 +97,18 @@ bonus:  $(NAME) $(BONUS_OBJS)
 	@echo "*                                                            *"
 	@echo "\                                                           /"
 	@echo " '-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-' $(RESET)"
+	@echo
+	@echo
 	
 clean:
-	@echo "Removing \033[41m"Libft"\033[0m..."
-	@rm -f $(OBJS) $(BONUS_OBJS)
+	@echo "\nRemoving \033[41m"Libft ..."\033[0m"
+	rm -f $(OBJS) $(BONUS_OBJS)
 	@echo
-	@echo "$(LOG_RED) >>>------------ Object files deleted  ------------<<<$(RESET)\n"
+	@echo "$(LOG_RED) >>>----------- Object files deleted ... -----------<<<$(RESET)\n"
 
 fclean: clean
-	@rm -f $(NAME)
-	@echo "$(LOG_RED)      >>>------  Libft.a deleted too ------<<<$(RESET)\n"
+	rm -f $(NAME)
+	@echo "\n$(LOG_RED)      >>>-----  Libft.a deleted too ! -----<<<$(RESET)\n"
 
 re: fclean all
 
