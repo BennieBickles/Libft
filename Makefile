@@ -2,6 +2,9 @@ NAME =	libft.a
 INC = libft.h
 CC = gcc
 FLAGS = -Wall -Wextra -Werror
+
+##############################     FILES     ####################################
+
 SRC =	ft_atoi.c\
 	ft_isalpha.c\
 	ft_itoa.c\
@@ -51,6 +54,8 @@ BONUS = ft_lstnew.c\
 
 BONUS_OBJS = $(BONUS:.c=.o)
 
+##############################     COLORS    ####################################
+
 GREEN = \033[0;32m
 RED = \033[0;31m
 RESET = \033[0m
@@ -68,6 +73,8 @@ LOG_WHITE		= \033[1;37m
 
 all: $(NAME)
 
+##############################     COMPIL    ####################################
+
 $(NAME): $(OBJS)
 	@echo "Compiling \033[42m"Libft"\033[0m..."
 	@ar rc $(NAME) $(OBJS)
@@ -81,20 +88,23 @@ bonus:  $(NAME) $(BONUS_OBJS)
 	@ar -rc $(NAME) $(BONUS_OBJS)
 	@echo "$(LOG_GREEN) >>>----------- Bonus successfully created ! -----------<<<\n"
 	@echo
-	@echo "$(LOG_YELLOW) *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-*"
+	@echo "$(LOG_YELLOW) .-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-."
+	@echo "/                                                           \\"
 	@echo "*                                                            *"
-	@echo "$(LOG_YELLOW) * $(LOG_WHITE)>>>> >>> >> >  ... .. .$(LOG_YELLOW) SUCCESS $(LOG_WHITE). .. ...  < << <<< <<<<  $(LOG_YELLOW)*"
+	@echo "$(LOG_YELLOW)|  $(LOG_WHITE)>>>> >>> >> >  ... .. .$(LOG_YELLOW) SUCCESS $(LOG_WHITE). .. ...  < << <<< <<<<  $(LOG_YELLOW) |"
 	@echo "*                                                            *"
-	@echo " *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-**-* $(RESET)"
+	@echo "\                                                           /"
+	@echo " '-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-' $(RESET)"
 	
 clean:
 	@echo "Removing \033[41m"Libft"\033[0m..."
 	@rm -f $(OBJS) $(BONUS_OBJS)
 	@echo
-	@echo "$(LOG_RED) >>>------------ Object files were deleted ! -----------<<<$(RESET)\n"
+	@echo "$(LOG_RED) >>>------------ Object files deleted  ------------<<<$(RESET)\n"
 
 fclean: clean
 	@rm -f $(NAME)
+	@echo "$(LOG_RED)      >>>------  Libft.a deleted too ------<<<$(RESET)\n"
 
 re: fclean all
 
