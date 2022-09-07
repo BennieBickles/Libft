@@ -5,6 +5,8 @@ INC = libft.h
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
+
+
 ##############################     FILES     ####################################
 
 SRC =	ft_atoi.c\
@@ -56,6 +58,8 @@ BONUS = ft_lstnew.c\
 
 BONUS_OBJS = $(BONUS:.c=.o)
 
+
+
 ##############################     COLORS    ####################################
 
 GREEN = \033[0;32m
@@ -72,7 +76,6 @@ LOG_BLUE		= \033[1;34m
 LOG_VIOLET		= \033[1;35m
 LOG_CYAN		= \033[1;36m
 LOG_WHITE		= \033[1;37m
-
 
 
 
@@ -101,7 +104,6 @@ bonus:  $(NAME) $(BONUS_OBJS)
 
 
 
-
 ##############################    CLEAN    ####################################
 
 clean:
@@ -116,6 +118,8 @@ fclean: clean
 re: fclean all
 
 .PHONY: clean fclean all re
+
+
 
 ##############################    HELP   ####################################
 
