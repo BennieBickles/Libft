@@ -114,9 +114,10 @@ clean:
 
 fclean: clean
 	rm -f $(NAME)
-	@echo "\n$(LOG_RED)      >>>-----  Libft.a deleted too ! -----<<<$(RESET)\n"
+	@echo "\n$(LOG_RED)       >>>-----  Libft.a deleted too ! -----<<<$(RESET)\n"
 
 re: fclean all
+	@echo "$(LOG_YELLOW) >>>---- Cleaned and rebuilt everything for libft ! ----<<<$(RESET)\n"
 
 .PHONY: clean fclean all re
 
