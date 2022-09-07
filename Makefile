@@ -1,3 +1,5 @@
+##############################     UTILS    ####################################
+
 NAME =	libft.a
 INC = libft.h
 CC = gcc
@@ -40,7 +42,7 @@ SRC =	ft_atoi.c\
 	ft_strncmp.c\
 	ft_substr.c
 
-OBJS = $(SRC:.c=.o)
+SRC_OBJS = $(SRC:.c=.o)
 
 BONUS = ft_lstnew.c\
 	ft_lstadd_front.c\
@@ -71,40 +73,41 @@ LOG_VIOLET		= \033[1;35m
 LOG_CYAN		= \033[1;36m
 LOG_WHITE		= \033[1;37m
 
-all: $(NAME)
+
+
 
 ##############################     COMPIL    ####################################
 
-$(NAME): $(OBJS)
+all: $(NAME)
+
+$(NAME): $(SRC_OBJS)
 	@echo "\nCompiling \033[42m"Libft ..."\033[0m"
-	ar rc $(NAME) $(OBJS)
+	ar rc $(NAME) $(SRC_OBJS)
 	ranlib $(NAME)
-	@echo
-	@echo "$(LOG_GREEN) >>>----------- Libft successfully created ! -----------<<<\n$(RESET)"
-	@echo
+	@echo "\n$(LOG_GREEN) >>>----------- Libft successfully created ! -----------<<<\n$(RESET)\n"
 
 bonus:  $(NAME) $(BONUS_OBJS)
-	@echo
-	@echo "Compiling \033[42m"Bonus ..."\033[0m"
+	@echo "\nCompiling \033[42m"Bonus ..."\033[0m"
 	ar -rc $(NAME) $(BONUS_OBJS)
 	ranlib $(NAME)
-	@echo "\n$(LOG_GREEN) >>>----------- Bonus successfully created ! -----------<<<\n"
-	@echo
+	@echo "\n$(LOG_GREEN) >>>---------- Bonus successfully added ! ----------<<<\n\n"
 	@echo "$(LOG_YELLOW) .-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-."
 	@echo "/                                                           \\"
 	@echo "*                                                            *"
 	@echo "$(LOG_YELLOW)|  $(LOG_WHITE)>>>> >>> >> >  ... .. .$(LOG_YELLOW) SUCCESS $(LOG_WHITE). .. ...  < << <<< <<<<  $(LOG_YELLOW) |"
 	@echo "*                                                            *"
 	@echo "\                                                           /"
-	@echo " '-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-' $(RESET)"
-	@echo
-	@echo
-	
+	@echo " '-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-' $(RESET)\n\n"
+
+
+
+
+##############################    CLEAN    ####################################
+
 clean:
 	@echo "\nRemoving \033[41m"Libft ..."\033[0m"
-	rm -f $(OBJS) $(BONUS_OBJS)
-	@echo
-	@echo "$(LOG_RED) >>>----------- Object files deleted ... -----------<<<$(RESET)\n"
+	rm -f $(SRC_OBJS) $(BONUS_OBJS)
+	@echo "\n$(LOG_RED) >>>----------- Object files deleted ... -----------<<<$(RESET)\n"
 
 fclean: clean
 	rm -f $(NAME)
@@ -113,3 +116,11 @@ fclean: clean
 re: fclean all
 
 .PHONY: clean fclean all re
+
+##############################    HELP   ####################################
+
+help:
+	@echo "\n\n	------>	   Type $(LOG_GREEN)make$(RESET) to create $(LOG_WHITE)libft.a withous bonus$(RESET)."
+	@echo "	------>	   Type $(LOG_GREEN)make bonus$(RESET) to create $(LOG_WHITE)libft.a with bonus$(RESET).\n"
+	@echo "	------>	   Type $(LOG_RED)make clean$(RESET) to $(LOG_WHITE)delete .o files$(RESET)."
+	@echo "	------>	   Type $(LOG_RED)make fclean$(RESET) to $(LOG_WHITE)delete all$(RESET).\n\n"
