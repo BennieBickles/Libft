@@ -4,6 +4,7 @@ NAME =	libft.a
 INC = libft.h
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
+C = \033[1;34m
 
 
 
@@ -84,13 +85,13 @@ LOG_WHITE		= \033[1;37m
 all: $(NAME)
 
 $(NAME): $(SRC_OBJS)
-	@echo "\nCompiling \033[42m"Libft ..."\033[0m"
+	@echo "\n$(LOG_WHITE)\033[42m"Compiling Libft ..."\033[0m"
 	ar rc $(NAME) $(SRC_OBJS)
 	ranlib $(NAME)
 	@echo "\n$(LOG_GREEN) >>>----------- Libft successfully created ! -----------<<<\n$(RESET)\n"
 
 bonus:  $(NAME) $(BONUS_OBJS)
-	@echo "\nCompiling \033[42m"Bonus ..."\033[0m"
+	@echo "\n$(LOG_WHITE)\033[42m"Compiling Bonus ..."\033[0m"
 	ar -rc $(NAME) $(BONUS_OBJS)
 	ranlib $(NAME)
 	@echo "\n$(LOG_GREEN) >>>---------- Bonus successfully added ! ----------<<<\n\n"
@@ -107,7 +108,7 @@ bonus:  $(NAME) $(BONUS_OBJS)
 ##############################    CLEAN    ####################################
 
 clean:
-	@echo "\nRemoving \033[41m"Libft ..."\033[0m"
+	@echo "\n$(LOG_WHITE)\033[41m"Removing Libft ..."\033[0m"
 	rm -f $(SRC_OBJS) $(BONUS_OBJS)
 	@echo "\n$(LOG_RED) >>>----------- Object files deleted ... -----------<<<$(RESET)\n"
 
