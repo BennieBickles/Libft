@@ -6,7 +6,7 @@
 /*   By: mtortrot <mtortrot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/06 19:11:01 by mtortrot          #+#    #+#             */
-/*   Updated: 2022/09/06 19:11:03 by mtortrot         ###   ########.fr       */
+/*   Updated: 2022/09/09 10:09:38 by mtortrot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
-	t_list	*n;
-
-	n = new;
-	n->next = *lst;
-	*lst = n;
+	new->next = *lst;
+	*lst = new;
 }

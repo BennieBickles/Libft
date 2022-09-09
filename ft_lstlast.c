@@ -6,7 +6,7 @@
 /*   By: mtortrot <mtortrot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/06 19:12:09 by mtortrot          #+#    #+#             */
-/*   Updated: 2022/09/06 19:12:23 by mtortrot         ###   ########.fr       */
+/*   Updated: 2022/09/09 10:14:33 by mtortrot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,7 @@
 
 t_list	*ft_lstlast(t_list *lst)
 {
-	if (!lst)
-		return (NULL);
-	while (lst->next)
+	while (lst != NULL && lst->next != NULL)
 		lst = lst->next;
 	return (lst);
 }
