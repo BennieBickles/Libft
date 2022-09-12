@@ -78,7 +78,7 @@ chevaucher. Si c'est le cas, utilisez plutôt memmove(3).
 __________________________________________________________________
 
 #### *memmove void	
-###### **ft_memmove(void *dst, const void *src, size_t len)
+###### *ft_memmove(void *dst, const void *src, size_t len)
 
 
 La fonction memmove copie n octets depuis la zone mémoire src vers 
@@ -88,9 +88,9 @@ dans une zone temporaire qui ne chevauche ni src ni dest, et les
 octets sont ensuite copiés de la zone temporaire vers dest.
 __________________________________________________________________
 
-###### strlcpy 	## strlcat
-size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
-size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
+#### *strlcpy	/	strlcat
+###### size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
+###### size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 
 
 Les fonctions strlcpy() et strlcat() copient et concatènent 
@@ -108,21 +108,23 @@ Cela signifie que pour strlcpy() src doit être terminé par NUL
 et pour strlcat() src et dst doivent être terminés par NUL.
 __________________________________________________________________
 
-###### toupper		int ft_toupper(int c)
+#### *toupper		
+###### int ft_toupper(int c)
 
 La fonction toupper() convertit la lettre c en majuscule si 
 c'est possible.
 __________________________________________________________________
 
-###### tolower		int ft_tolower(int c)
+#### *tolower		
+###### int ft_tolower(int c)
 
 La fonction tolower() convertit la lettre c en minuscule si 
 c'est possible.
 __________________________________________________________________
 
-###### strchr	## strrchr
-char	*ft_strchr(const char	*s, int c)
-char	*ft_strrchr(const char *s, int c)
+#### *strchr	/	strrchr
+###### char	*ft_strchr(const char	*s, int c)
+###### char	*ft_strrchr(const char *s, int c)
 
 
 La fonction strchr() renvoie un pointeur sur la première 
@@ -131,7 +133,8 @@ La fonction strrchr() renvoie un pointeur sur la dernière
 occurrence du caractère c dans la chaîne s.
 __________________________________________________________________
 
-###### strncmp int ft_strncmp(const char *s1, const char *s2, size_t n)
+#### *strncmp 
+###### int ft_strncmp(const char *s1, const char *s2, size_t n)
 
 La fonction strcmp() compare les deux chaînes s1 et s2. Elle 
 renvoie un entier négatif, nul, ou positif, si s1 est respecti-
@@ -140,7 +143,8 @@ La fonction strncmp() est identique sauf qu'elle ne compare que
 les n (au plus) premiers caractères de s1 et s2.
 __________________________________________________________________
 
-###### memchr	void *ft_memchr(const void *s, int c, size_t n)
+#### *memchr	
+###### void *ft_memchr(const void *s, int c, size_t n)
 
 La fonction memchr() examine les n premiers octets de la zone 
 mémoire pointée par s à la recherche du caractère c. Le premier 
@@ -148,7 +152,8 @@ octet correspondant à c (interprété comme un unsigned char) arrête
 l'opération.
 __________________________________________________________________
 
-###### memcmp  int ft_memcmp(const void *s1, const void *s2, size_t n)
+#### *memcmp  
+###### int ft_memcmp(const void *s1, const void *s2, size_t n)
 
 
 La fonction memcmp() compare les n premiers octets des zones 
