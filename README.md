@@ -1,6 +1,6 @@
 
 
-![This is an image](/../main/assets/images/screen.png)
+![This is an image](screen.png)
 
 
 #### *isalpha*		 	
