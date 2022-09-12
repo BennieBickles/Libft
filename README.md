@@ -17,30 +17,24 @@ __________________________________________________________________
 Vérifie si l'on a un chiffre (0 à 9).
 __________________________________________________________________
 
-![image](https://zupimages.net/up/22/37/xhse.png)
+![image](https://zupimages.net/up/22/37/16qw.png)
 
 Vérifie si l'on a un caractère alphanumérique. C'est équivalent à 
 (isalpha(c) || isdigit(c)).
 __________________________________________________________________
 
-#### *isascii*		
-###### int ft_isascii(int c)
-
+![image](https://zupimages.net/up/22/37/jsax.png)
 
 Vérifie si c est un unsigned char sur 7 bits, entrant dans le jeu 
 de caractères ASCII.
 __________________________________________________________________
 
-#### *isprint*		
-###### int	ft_isprint(int c)
-
+![image](https://zupimages.net/up/22/37/zi8g.png)
 
 Vérifie s'il s'agit d'un caractère imprimable, y compris l'espace.
 __________________________________________________________________
 
-#### *strlen*		
-###### size_t	ft_strlen(const char *s) 
-
+![image](https://zupimages.net/up/22/37/8dpz.png)
 
 Calculer la longueur d'une chaîne de caractères  
 __________________________________________________________________
