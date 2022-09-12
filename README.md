@@ -2,6 +2,7 @@
 
 ![This is an image](https://zupimages.net/up/22/37/84dg.png)
 
+![Badge](https://forthebadge.com/generator/?plabel=int&slabel=isalpha)
 
 #### *isalpha*		 	
 ###### int ft_isalpha(int c)
