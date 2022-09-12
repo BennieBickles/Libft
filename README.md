@@ -86,11 +86,7 @@ __________________________________________________________________
 La fonction tolower() convertit la lettre c en minuscule si 
 c'est possible.
 __________________________________________________________________
-
-#### *strchr	/	strrchr*
-###### char	*ft_strchr(const char	*s, int c)
-###### char	*ft_strrchr(const char *s, int c)
-
+![image](https://zupimages.net/up/22/37/tqbw.png) ![image](https://zupimages.net/up/22/37/44o7.png)
 
 La fonction strchr() renvoie un pointeur sur la première 
 occurrence du caractère c dans la chaîne s.
