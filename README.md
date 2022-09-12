@@ -54,7 +54,7 @@ __________________________________________________________________
 Calculer la longueur d'une chaîne de caractères  
 __________________________________________________________________
 
-#### *memset          
+#### *memset*          
 ###### void *ft_memset(void *b, int c, size_t len)
 
 
@@ -62,14 +62,14 @@ La fonction memset() remplit les n premiers octets de la zone
 mémoire pointée par s avec l'octet c.
 __________________________________________________________________
 
-#### *bzero	    
+#### *bzero*	    
 ###### void ft_bzero(void *s, size_t n)
 
 La fonction bzero() met à 0 (octets contenant « \0 ») les n 
 premiers octets du bloc pointé par s.
 __________________________________________________________________
 
-#### *memcpy  
+#### *memcpy*  
 ###### void *ft_memcpy(void *dst, const void *src, size_t n)
 
 La fonction memcpy copie n octets depuis la zone mémoire src 
@@ -77,8 +77,8 @@ vers la zone mémoire dest. Les deux zones ne doivent pas se
 chevaucher. Si c'est le cas, utilisez plutôt memmove(3).  
 __________________________________________________________________
 
-#### *memmove void	
-###### *ft_memmove(void *dst, const void *src, size_t len)
+#### *memmove* 
+###### void	*ft_memmove(void *dst, const void *src, size_t len)
 
 
 La fonction memmove copie n octets depuis la zone mémoire src vers 
@@ -88,7 +88,7 @@ dans une zone temporaire qui ne chevauche ni src ni dest, et les
 octets sont ensuite copiés de la zone temporaire vers dest.
 __________________________________________________________________
 
-#### *strlcpy	/	strlcat
+#### *strlcpy	/	strlcat*
 ###### size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 ###### size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 
@@ -108,21 +108,21 @@ Cela signifie que pour strlcpy() src doit être terminé par NUL
 et pour strlcat() src et dst doivent être terminés par NUL.
 __________________________________________________________________
 
-#### *toupper		
+#### *toupper*		
 ###### int ft_toupper(int c)
 
 La fonction toupper() convertit la lettre c en majuscule si 
 c'est possible.
 __________________________________________________________________
 
-#### *tolower		
+#### *tolower*		
 ###### int ft_tolower(int c)
 
 La fonction tolower() convertit la lettre c en minuscule si 
 c'est possible.
 __________________________________________________________________
 
-#### *strchr	/	strrchr
+#### *strchr	/	strrchr*
 ###### char	*ft_strchr(const char	*s, int c)
 ###### char	*ft_strrchr(const char *s, int c)
 
@@ -133,8 +133,8 @@ La fonction strrchr() renvoie un pointeur sur la dernière
 occurrence du caractère c dans la chaîne s.
 __________________________________________________________________
 
-#### *strncmp 
-###### int ft_strncmp(const char *s1, const char *s2, size_t n)
+#### *strncmp* 
+###### int	ft_strncmp(const char *s1, const char *s2, size_t n)
 
 La fonction strcmp() compare les deux chaînes s1 et s2. Elle 
 renvoie un entier négatif, nul, ou positif, si s1 est respecti-
@@ -143,7 +143,7 @@ La fonction strncmp() est identique sauf qu'elle ne compare que
 les n (au plus) premiers caractères de s1 et s2.
 __________________________________________________________________
 
-#### *memchr	
+#### *memchr*	
 ###### void *ft_memchr(const void *s, int c, size_t n)
 
 La fonction memchr() examine les n premiers octets de la zone 
@@ -152,7 +152,7 @@ octet correspondant à c (interprété comme un unsigned char) arrête
 l'opération.
 __________________________________________________________________
 
-#### *memcmp  
+#### *memcmp*  
 ###### int ft_memcmp(const void *s1, const void *s2, size_t n)
 
 
