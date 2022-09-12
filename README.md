@@ -4,64 +4,52 @@
 
 ![image](https://zupimages.net/up/22/37/dooy.png)
 
-
 Vérifie si l'on a un caractère alphabétique. Dans la localisation 
 "C" standard, c'est équivalent à (isupper(c) || islower(c)). Dans 
 certaines localisations, il peut y avoir des caractères 
 supplémentaires pour lesquels isalpha() est vrai, c'est-à-dire 
 pour des lettres qui ne sont ni majuscules ni minuscules.
 __________________________________________________________________
-
 ![image](https://zupimages.net/up/22/37/xhse.png)
 
 Vérifie si l'on a un chiffre (0 à 9).
 __________________________________________________________________
-
 ![image](https://zupimages.net/up/22/37/16qw.png)
 
 Vérifie si l'on a un caractère alphanumérique. C'est équivalent à 
 (isalpha(c) || isdigit(c)).
 __________________________________________________________________
-
 ![image](https://zupimages.net/up/22/37/jsax.png)
 
 Vérifie si c est un unsigned char sur 7 bits, entrant dans le jeu 
 de caractères ASCII.
 __________________________________________________________________
-
 ![image](https://zupimages.net/up/22/37/zi8g.png)
 
 Vérifie s'il s'agit d'un caractère imprimable, y compris l'espace.
 __________________________________________________________________
-
 ![image](https://zupimages.net/up/22/37/ees2.png)
 
 Calculer la longueur d'une chaîne de caractères  
 __________________________________________________________________
-
 ![image](https://zupimages.net/up/22/37/wzwv.png)
 
 
 La fonction memset() remplit les n premiers octets de la zone 
 mémoire pointée par s avec l'octet c.
 __________________________________________________________________
-
 ![image](https://zupimages.net/up/22/37/rnpt.png)
 
 La fonction bzero() met à 0 (octets contenant « \0 ») les n 
 premiers octets du bloc pointé par s.
 __________________________________________________________________
-
 ![image](https://zupimages.net/up/22/37/1z64.png)
 
 La fonction memcpy copie n octets depuis la zone mémoire src 
 vers la zone mémoire dest. Les deux zones ne doivent pas se 
 chevaucher. Si c'est le cas, utilisez plutôt memmove().  
 __________________________________________________________________
-
-#### *memmove* 
-###### void	*ft_memmove(void *dst, const void *src, size_t len)
-
+![image](https://zupimages.net/up/22/37/nr8m.png)
 
 La fonction memmove copie n octets depuis la zone mémoire src vers 
 la zone mémoire dest. Les deux zones peuvent se chevaucher : la 
@@ -89,18 +77,12 @@ et strlcat() ne fonctionnent que sur les vraies chaînes ''C''.
 Cela signifie que pour strlcpy() src doit être terminé par NUL 
 et pour strlcat() src et dst doivent être terminés par NUL.
 __________________________________________________________________
-
-#### *toupper*		
-###### int ft_toupper(int c)
-
+![image](https://zupimages.net/up/22/37/jgp6.png)
 
 La fonction toupper() convertit la lettre c en majuscule si 
 c'est possible.
 __________________________________________________________________
-
-#### *tolower*		
-###### int ft_tolower(int c)
-
+![image](https://zupimages.net/up/22/37/6ja5.png)
 
 La fonction tolower() convertit la lettre c en minuscule si 
 c'est possible.
@@ -116,10 +98,7 @@ occurrence du caractère c dans la chaîne s.
 La fonction strrchr() renvoie un pointeur sur la dernière 
 occurrence du caractère c dans la chaîne s.
 __________________________________________________________________
-
-#### *strncmp* 
-###### int	ft_strncmp(const char *s1, const char *s2, size_t n)
-
+![image](https://zupimages.net/up/22/37/8nzy.png)
 
 La fonction strcmp() compare les deux chaînes s1 et s2. Elle 
 renvoie un entier négatif, nul, ou positif, si s1 est respecti-
@@ -127,20 +106,14 @@ vement inférieure, égale ou supérieure à s2.
 La fonction strncmp() est identique sauf qu'elle ne compare que 
 les n (au plus) premiers caractères de s1 et s2.
 __________________________________________________________________
-
-#### *memchr*	
-###### void *ft_memchr(const void *s, int c, size_t n)
-
+![image](https://zupimages.net/up/22/37/nydq.png)
 
 La fonction memchr() examine les n premiers octets de la zone 
 mémoire pointée par s à la recherche du caractère c. Le premier 
 octet correspondant à c (interprété comme un unsigned char) arrête 
 l'opération.
 __________________________________________________________________
-
-#### *memcmp*  
-###### int ft_memcmp(const void *s1, const void *s2, size_t n)
-
+![image](https://zupimages.net/up/22/37/us8a.png)
 
 La fonction memcmp() compare les n premiers octets des zones 
 mémoire s1 et s2. Elle renvoie un entier inférieur, égal, ou 
@@ -148,9 +121,7 @@ supérieur à zéro, si s1 est respectivement inférieure, égale
 ou supérieur à s2.  
 __________________________________________________________________
 
-#### *strnstr
-###### char	*ft_strnstr(const char *big, const char *little, size_t len)
-
+![image](https://zupimages.net/up/22/37/c744.png)
 
 La fonction strnstr() localise la première occurrence du terme nul
 chaîne notée peu dans la chaîne grande, où pas plus de len carac-
@@ -160,17 +131,12 @@ est une API spécifique à FreeBSD, elle ne doit être utilisé que
 lorsque la portabilité n'est pas un problème.
 __________________________________________________________________
 
-#### *atoi*
-###### int		ft_atoi(const char *str);
-
+![image](https://zupimages.net/up/22/37/h12s.png)
 
 La fonction atoi() convertit le début de la chaîne pointée par 
 nptr en entier de type int . Le résultat est identique à un appel.
 __________________________________________________________________
-
-#### *calloc*
-###### void	*ft_calloc(size_t count, size_t size)
-
+![image](https://zupimages.net/up/22/37/3bik.png)
 
 La fonction calloc() alloue la mémoire nécessaire pour un tableau 
 de nmemb éléments de size octets, et renvoie un pointeur vers la 
@@ -179,9 +145,7 @@ ou si size est nulle, calloc renvoie soit NULL ou un unique poin-
 teur qui pourra être passé ultérieurement à free() avec succès.
 __________________________________________________________________
 
-#### *strdup*
-###### char	*ft_strdup(const char *s1)
-
+![image](https://zupimages.net/up/22/37/b238.png)
 
 La fonction strdup() renvoie un pointeur sur une nouvelle chaîne 
 de caractères qui est dupliquée depuis s. La mémoire occupée par 
