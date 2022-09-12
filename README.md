@@ -152,165 +152,106 @@ de caractères qui est dupliquée depuis s. La mémoire occupée par
 cette nouvelle chaîne est obtenue en appelant malloc(), et peut 
 (doit) donc être libérée avec free().
 __________________________________________________________________
-
-#### *substr*
-###### char *ft_substr(char const *s, unsigned int start, size_t len)
-
+![image](https://zupimages.net/up/22/37/o8vy.png)
 
 Alloue (avec malloc(3)) et retourne une chaîne de caractères issue 
 de la chaîne ’s’. Cette nouvelle chaîne commence à l’index ’start’ 
 et a pour taille maximale ’len’.
 __________________________________________________________________
-
-#### *strjoin*
-###### char *ft_strjoin(char const *s1, char const *s2)
-
+![image](https://zupimages.net/up/22/37/h3bf.png)
 
 Alloue (avec malloc(3)) et retourne une nouvelle chaîne, résultat 
 de la concaténation de s1 et s2.
 __________________________________________________________________
-
-#### *strtrim*
-###### char *ft_strtrim(char const *s1, char const *set)
-
+![image](https://zupimages.net/up/22/37/t8ar.png)
 
 Alloue (avec malloc(3)) et retourne une copie de la chaîne ’s1’, 
 sans les caractères spécifiés dans ’set’ au début et à la fin 
 de la chaîne de caractères.
 __________________________________________________________________
-
-#### *split*
-###### char **ft_split(char const *s, char c)
-
+![image](https://zupimages.net/up/22/37/9dme.png)
 
 Alloue (avec malloc(3)) et retourne un tableau de chaînes de 
 caractères obtenu en séparant ’s’ à l’aide du caractère ’c’, 
 utilisé comme délimiteur. Le tableau doit être terminé par NULL.
 __________________________________________________________________
-
-#### *itoa*
-###### char *ft_itoa(int n)
-
+![image](https://zupimages.net/up/22/37/li2p.png)
 
 Alloue (avec malloc(3)) et retourne une chaîne de caractères re-
 présentant l’entier ’n’ reçu en argument. Les nombres négatifs 
 doivent être gérés
 __________________________________________________________________
-
-#### *strmapi*
-###### char *ft_strmapi(char const *s, char (*f)(unsigned int, char))
-
+![image](https://zupimages.net/up/22/37/19az.png)
 
 Applique la fonction ’f’ à chaque caractère de la chaîne de carac-
 tères passée en argument pour créer une nouvelle chaîne de carac-
 tères (avec malloc()) résultant des applications successives de ’f’.
 __________________________________________________________________
-
-#### *striteri*
-###### void ft_striteri(char *s, void (*f)(unsigned int, char*))
-
+![image](https://zupimages.net/up/22/37/uzo7.png)
 
 Applique la fonction ’f’ à chaque caractère de la chaîne de carac-
 tères transmise comme argument, et en passant son index comme 
 premier argument. Chaque caractère est transmis par adresse à ’f’
 afin d’être modifié si nécessaire.
 __________________________________________________________________
-
-#### *putchar_fd*
-###### void ft_putchar_fd(char c, int fd)
-
+![image](https://zupimages.net/up/22/37/61qy.png)
 
 Écrit le caractère ’c’ sur le descripteur de fichier donné.
 __________________________________________________________________
-
-#### *putstr_fd*
-###### void ft_putstr_fd(char *s, int fd)
-
+![image](https://zupimages.net/up/22/37/v888.png)
 
 Écrit la chaîne de caractères ’s’ sur le descripteur de fichier 
 donné.
 __________________________________________________________________
-
-#### *putendl_fd*
-###### void ft_putendl_fd(char *s, int fd)
-
+![image](https://zupimages.net/up/22/37/ca55.png)
 
 Écrit La chaîne de caractères ’s’ sur le descripteur de fichier 
 donné suivie d’un retour à la ligne.
 __________________________________________________________________
-
-#### *putnbr_fd*
-###### void ft_putnbr_fd(int n, int fd)
-
+![image](https://zupimages.net/up/22/37/fzae.png)
 
 Écrit l’entier ’n’ sur le descripteur de fichier donné.
 __________________________________________________________________
-
-#### *lstnew*
-###### t_list *ft_lstnew(void *content)
-
+![image](https://zupimages.net/up/22/37/3i49.png)
 
 Alloue (avec malloc(3)) et renvoie un nouvel élément. La variable 
 membre ’content’ est initialisée à l’aide de la valeur du paramètre
 ’content’. La variable ’next’ est initialisée à NULL.
 __________________________________________________________________
-
-#### *lstadd_front*
-###### void ft_lstadd_front(t_list **lst, t_list *new)
-
+![image](https://zupimages.net/up/22/37/s0zg.png)
 
 Ajoute l’élément ’new’ au début de la liste.
 __________________________________________________________________
-
-#### *lstsize*
-###### int ft_lstsize(t_list *lst)
-
+![image](https://zupimages.net/up/22/37/tud3.png)
 
 Compte le nombre d’éléments de la liste.
 __________________________________________________________________
-
-#### *lstlast*
-###### t_list *ft_lstlast(t_list *lst)
-
+![image](https://zupimages.net/up/22/37/hsqg.png)
 
 Renvoie le dernier élément de la liste.
 __________________________________________________________________
-
-#### *lstadd_back*
-###### void ft_lstadd_back(t_list **lst, t_list *new)
+![image](https://zupimages.net/up/22/37/u0ma.png)
 
 Ajoute l’élément ’new’ à la fin de la liste.
 __________________________________________________________________
-
-#### *lstdelone*
-###### void ft_lstdelone(t_list *lst, void (*del)(void *))
-
+![image](https://zupimages.net/up/22/37/40qi.png)
 
 Libère la mémoire de l’élément passé en argument en utilisant la 
 fonction ’del’ puis avec free(3). La mémoire de ’next’ ne doit pas 
 être free.
 __________________________________________________________________
-
-#### *lstclear*
-###### void ft_lstclear(t_list **lst, void (*del)(void *))
-
+![image](https://zupimages.net/up/22/37/d036.png)
 
 Supprime et libère la mémoire de l’élément passé en paramètre, et 
 de tous les éléments qui suivent, à l’aide de ’del’ et de free(3)
 Enfin, le pointeur initial doit être mis à NULL.
 __________________________________________________________________
-
-#### *lstiter*
-###### void ft_lstiter(t_list *lst, void (*f)(void *))
-
+![image](https://zupimages.net/up/22/37/ax8j.png)
 
 Itère sur la liste ’lst’ et applique la fonction ’f’ au contenu 
 chaque élément.
 __________________________________________________________________
-
-#### *lstmap*
-###### t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
-
+![image](https://zupimages.net/up/22/37/9qim.png)
 
 Itère sur la liste ’lst’ et applique la fonction ’f ’au contenu de 
 chaque élément. Crée une nouvelle liste résultant des applications 
