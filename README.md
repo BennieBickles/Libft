@@ -12,7 +12,8 @@
 >                               \__\/         \__\/              
 
 
-#### "isalpha"		 	###### int ft_isalpha(int c)
+#### *isalpha*		 	
+###### int ft_isalpha(int c)
 
 Vérifie si l'on a un caractère alphabétique. Dans la localisation 
 "C" standard, c'est équivalent à (isupper(c) || islower(c)). Dans 
