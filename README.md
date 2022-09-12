@@ -83,7 +83,7 @@ __________________________________________________________________
 
 La fonction memcpy copie n octets depuis la zone mémoire src 
 vers la zone mémoire dest. Les deux zones ne doivent pas se 
-chevaucher. Si c'est le cas, utilisez plutôt memmove(3).  
+chevaucher. Si c'est le cas, utilisez plutôt memmove().  
 __________________________________________________________________
 
 #### *memmove* 
@@ -175,39 +175,208 @@ supérieur à zéro, si s1 est respectivement inférieure, égale
 ou supérieur à s2.  
 __________________________________________________________________
 
-###### strnstr	
+#### *strnstr
+###### char	*ft_strnstr(const char *big, const char *little, size_t len)
 
-## atoi		int	ft_atoi(const char *str)
 
-La fonction atoi() convertit le début de la chaîne pointée par nptr 
-en entier de type int . Le résultat est identique à un appel
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
-__________________________________________________________________
+La fonction strnstr() localise la première occurrence du terme nul
+chaîne notée peu dans la chaîne grande, où pas plus de len carac-
+tères sont recherchés. Les caractères qui apparaissent après un 
+caractère `\0' ne sont pas cherché. Comme la fonction strnstr() 
+est une API spécifique à FreeBSD, elle ne doit être utilisé que 
+lorsque la portabilité n'est pas un problème.
 __________________________________________________________________
 
+#### *atoi*
+###### int		ft_atoi(const char *str);
+
+
+La fonction atoi() convertit le début de la chaîne pointée par 
+nptr en entier de type int . Le résultat est identique à un appel.
+__________________________________________________________________
+
+#### *calloc*
+###### void	*ft_calloc(size_t count, size_t size)
+
+
+La fonction calloc() alloue la mémoire nécessaire pour un tableau 
+de nmemb éléments de size octets, et renvoie un pointeur vers la 
+mémoire allouée. Cette zone est remplie avec des zéros. Si nmemb 
+ou si size est nulle, calloc renvoie soit NULL ou un unique poin-
+teur qui pourra être passé ultérieurement à free() avec succès.
+__________________________________________________________________
+
+#### *strdup*
+###### char	*ft_strdup(const char *s1)
+
+
+La fonction strdup() renvoie un pointeur sur une nouvelle chaîne 
+de caractères qui est dupliquée depuis s. La mémoire occupée par 
+cette nouvelle chaîne est obtenue en appelant malloc(), et peut 
+(doit) donc être libérée avec free().
+__________________________________________________________________
+
+#### *substr*
+###### char *ft_substr(char const *s, unsigned int start, size_t len)
+
+
+Alloue (avec malloc(3)) et retourne une chaîne de caractères issue 
+de la chaîne ’s’. Cette nouvelle chaîne commence à l’index ’start’ 
+et a pour taille maximale ’len’.
+__________________________________________________________________
+
+#### *strjoin*
+###### char *ft_strjoin(char const *s1, char const *s2)
+
+
+Alloue (avec malloc(3)) et retourne une nouvelle chaîne, résultat 
+de la concaténation de s1 et s2.
+__________________________________________________________________
+
+#### *strtrim*
+###### char *ft_strtrim(char const *s1, char const *set)
+
+
+Alloue (avec malloc(3)) et retourne une copie de la chaîne ’s1’, 
+sans les caractères spécifiés dans ’set’ au début et à la fin 
+de la chaîne de caractères.
+__________________________________________________________________
+
+#### *split*
+###### char **ft_split(char const *s, char c)
+
+
+Alloue (avec malloc(3)) et retourne un tableau de chaînes de 
+caractères obtenu en séparant ’s’ à l’aide du caractère ’c’, 
+utilisé comme délimiteur. Le tableau doit être terminé par NULL.
+__________________________________________________________________
+
+#### *itoa*
+###### char *ft_itoa(int n)
+
+
+Alloue (avec malloc(3)) et retourne une chaîne de caractères re-
+présentant l’entier ’n’ reçu en argument. Les nombres négatifs 
+doivent être gérés
+__________________________________________________________________
+
+#### *strmapi*
+###### char *ft_strmapi(char const *s, char (*f)(unsigned int, char))
+
+
+Applique la fonction ’f’ à chaque caractère de la chaîne de carac-
+tères passée en argument pour créer une nouvelle chaîne de carac-
+tères (avec malloc()) résultant des applications successives de ’f’.
+__________________________________________________________________
+
+#### *striteri*
+###### void ft_striteri(char *s, void (*f)(unsigned int, char*))
+
+
+Applique la fonction ’f’ à chaque caractère de la chaîne de carac-
+tères transmise comme argument, et en passant son index comme 
+premier argument. Chaque caractère est transmis par adresse à ’f’
+afin d’être modifié si nécessaire.
+__________________________________________________________________
+
+#### *putchar_fd*
+###### void ft_putchar_fd(char c, int fd)
+
+
+Écrit le caractère ’c’ sur le descripteur de fichier donné.
+__________________________________________________________________
+
+#### *putstr_fd*
+###### void ft_putstr_fd(char *s, int fd)
+
+
+Écrit la chaîne de caractères ’s’ sur le descripteur de fichier 
+donné.
+__________________________________________________________________
+
+#### *putendl_fd*
+###### void ft_putendl_fd(char *s, int fd)
+
+
+Écrit La chaîne de caractères ’s’ sur le descripteur de fichier 
+donné suivie d’un retour à la ligne.
+__________________________________________________________________
+
+#### *putnbr_fd*
+###### void ft_putnbr_fd(int n, int fd)
+
+
+Écrit l’entier ’n’ sur le descripteur de fichier donné.
+__________________________________________________________________
+
+#### *lstnew*
+###### t_list *ft_lstnew(void *content)
+
+
+Alloue (avec malloc(3)) et renvoie un nouvel élément. La variable 
+membre ’content’ est initialisée à l’aide de la valeur du paramètre
+’content’. La variable ’next’ est initialisée à NULL.
+__________________________________________________________________
+
+#### *lstadd_front*
+###### void ft_lstadd_front(t_list **lst, t_list *new)
+
+
+Ajoute l’élément ’new’ au début de la liste.
+__________________________________________________________________
+
+#### *lstsize*
+###### int ft_lstsize(t_list *lst)
+
+
+Compte le nombre d’éléments de la liste.
+__________________________________________________________________
+
+#### *lstlast*
+###### t_list *ft_lstlast(t_list *lst)
+
+
+Renvoie le dernier élément de la liste.
+__________________________________________________________________
+
+#### *lstadd_back*
+###### void ft_lstadd_back(t_list **lst, t_list *new)
+
+Ajoute l’élément ’new’ à la fin de la liste.
+__________________________________________________________________
+
+#### *lstdelone*
+###### void ft_lstdelone(t_list *lst, void (*del)(void *))
+
+
+Libère la mémoire de l’élément passé en argument en utilisant la 
+fonction ’del’ puis avec free(3). La mémoire de ’next’ ne doit pas 
+être free.
+__________________________________________________________________
+
+#### *lstclear*
+###### void ft_lstclear(t_list **lst, void (*del)(void *))
+
+
+Supprime et libère la mémoire de l’élément passé en paramètre, et 
+de tous les éléments qui suivent, à l’aide de ’del’ et de free(3)
+Enfin, le pointeur initial doit être mis à NULL.
+__________________________________________________________________
+
+#### *lstiter*
+###### void ft_lstiter(t_list *lst, void (*f)(void *))
+
+
+Itère sur la liste ’lst’ et applique la fonction ’f’ au contenu 
+chaque élément.
+__________________________________________________________________
+
+#### *lstmap*
+###### t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
+
+
+Itère sur la liste ’lst’ et applique la fonction ’f ’au contenu de 
+chaque élément. Crée une nouvelle liste résultant des applications 
+successives de ’f’. La fonction ’del’ est là pour détruire le
+contenu d’un élément si nécessaire.
+__________________________________________________________________
