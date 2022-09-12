@@ -15,6 +15,7 @@
 #### *isalpha*		 	
 ###### int ft_isalpha(int c)
 
+
 Vérifie si l'on a un caractère alphabétique. Dans la localisation 
 "C" standard, c'est équivalent à (isupper(c) || islower(c)). Dans 
 certaines localisations, il peut y avoir des caractères 
@@ -25,11 +26,13 @@ __________________________________________________________________
 #### "isdigit"		
 ###### int ft_isdigit(int c)
 
+
 Vérifie si l'on a un chiffre (0 à 9).
 __________________________________________________________________
 
 #### *isalnum*		
 ###### int ft_isalnum(int c)
+
 
 Vérifie si l'on a un caractère alphanumérique. C'est équivalent à 
 (isalpha(c) || isdigit(c)).
@@ -38,6 +41,7 @@ __________________________________________________________________
 #### *isascii*		
 ###### int ft_isascii(int c)
 
+
 Vérifie si c est un unsigned char sur 7 bits, entrant dans le jeu 
 de caractères ASCII.
 __________________________________________________________________
@@ -45,17 +49,20 @@ __________________________________________________________________
 #### *isprint*		
 ###### int	ft_isprint(int c)
 
+
 Vérifie s'il s'agit d'un caractère imprimable, y compris l'espace.
 __________________________________________________________________
 
 #### *strlen*		
 ###### size_t	ft_strlen(const char *s) 
 
+
 Calculer la longueur d'une chaîne de caractères  
 __________________________________________________________________
 
 #### *memset*          
 ###### void *ft_memset(void *b, int c, size_t len)
+
 
 
 La fonction memset() remplit les n premiers octets de la zone 
@@ -65,12 +72,14 @@ __________________________________________________________________
 #### *bzero*	    
 ###### void ft_bzero(void *s, size_t n)
 
+
 La fonction bzero() met à 0 (octets contenant « \0 ») les n 
 premiers octets du bloc pointé par s.
 __________________________________________________________________
 
 #### *memcpy*  
 ###### void *ft_memcpy(void *dst, const void *src, size_t n)
+
 
 La fonction memcpy copie n octets depuis la zone mémoire src 
 vers la zone mémoire dest. Les deux zones ne doivent pas se 
@@ -111,12 +120,14 @@ __________________________________________________________________
 #### *toupper*		
 ###### int ft_toupper(int c)
 
+
 La fonction toupper() convertit la lettre c en majuscule si 
 c'est possible.
 __________________________________________________________________
 
 #### *tolower*		
 ###### int ft_tolower(int c)
+
 
 La fonction tolower() convertit la lettre c en minuscule si 
 c'est possible.
@@ -136,6 +147,7 @@ __________________________________________________________________
 #### *strncmp* 
 ###### int	ft_strncmp(const char *s1, const char *s2, size_t n)
 
+
 La fonction strcmp() compare les deux chaînes s1 et s2. Elle 
 renvoie un entier négatif, nul, ou positif, si s1 est respecti-
 vement inférieure, égale ou supérieure à s2.
@@ -145,6 +157,7 @@ __________________________________________________________________
 
 #### *memchr*	
 ###### void *ft_memchr(const void *s, int c, size_t n)
+
 
 La fonction memchr() examine les n premiers octets de la zone 
 mémoire pointée par s à la recherche du caractère c. Le premier 
