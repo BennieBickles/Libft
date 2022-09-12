@@ -1,6 +1,6 @@
 
 
-![This is an image](https://zupimages.net/viewer.php?id=22/37/84dg.png)
+![This is an image](https://zupimages.net/up/22/37/84dg.png)
 
 
 #### *isalpha*		 	
