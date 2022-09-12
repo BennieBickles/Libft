@@ -12,7 +12,8 @@
 >                               \__\/         \__\/              
 
 
-#### isalpha		 int ft_isalpha(int c)
+#### "isalpha"		 
+###### int ft_isalpha(int c)
 
 Vérifie si l'on a un caractère alphabétique. Dans la localisation 
 "C" standard, c'est équivalent à (isupper(c) || islower(c)). Dans 
@@ -21,7 +22,8 @@ supplémentaires pour lesquels isalpha() est vrai, c'est-à-dire
 pour des lettres qui ne sont ni majuscules ni minuscules.
 __________________________________________________________________
 
-###### isdigit		int ft_isdigit(int c)
+#### "isdigit"		
+###### int ft_isdigit(int c)
 
 Vérifie si l'on a un chiffre (0 à 9).
 __________________________________________________________________
