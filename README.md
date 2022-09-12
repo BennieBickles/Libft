@@ -32,7 +32,7 @@ __________________________________________________________________
 
 Calculer la longueur d'une chaîne de caractères  
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/wzwv.png)
+![image](https://zupimages.net/up/22/37/f6wz.png)
 
 
 La fonction memset() remplit les n premiers octets de la zone 
@@ -43,7 +43,7 @@ __________________________________________________________________
 La fonction bzero() met à 0 (octets contenant « \0 ») les n 
 premiers octets du bloc pointé par s.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/1z64.png)
+![image](https://zupimages.net/up/22/37/llk8.png)
 
 La fonction memcpy copie n octets depuis la zone mémoire src 
 vers la zone mémoire dest. Les deux zones ne doivent pas se 
@@ -113,7 +113,7 @@ mémoire pointée par s à la recherche du caractère c. Le premier
 octet correspondant à c (interprété comme un unsigned char) arrête 
 l'opération.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/us8a.png)
+![image](https://zupimages.net/up/22/37/bedt.png)
 
 La fonction memcmp() compare les n premiers octets des zones 
 mémoire s1 et s2. Elle renvoie un entier inférieur, égal, ou 
