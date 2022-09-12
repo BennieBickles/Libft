@@ -2,6 +2,9 @@
 
 ![This is an image](https://zupimages.net/up/22/37/84dg.png)
 
+__________________________________________________________________
+
+
 ![image](https://zupimages.net/up/22/37/dooy.png)
 
 Vérifie si l'on a un caractère alphabétique. Dans la localisation 
@@ -57,11 +60,7 @@ copie se passe comme si les octets de src étaient d'abord copiés
 dans une zone temporaire qui ne chevauche ni src ni dest, et les 
 octets sont ensuite copiés de la zone temporaire vers dest.
 __________________________________________________________________
-
-#### *strlcpy	/	strlcat*
-###### size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
-###### size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
-
+![image](https://zupimages.net/up/22/37/szb0.png) ![image](https://zupimages.net/up/22/37/szb0.png)
 
 Les fonctions strlcpy() et strlcat() copient et concatènent 
 respectivement des chaînes. Ils sont conçus pour être des 
