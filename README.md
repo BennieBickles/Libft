@@ -28,49 +28,57 @@ __________________________________________________________________
 Vérifie si l'on a un chiffre (0 à 9).
 __________________________________________________________________
 
-###### isalnum		int ft_isalnum(int c)
+#### *isalnum*		
+###### int ft_isalnum(int c)
 
 Vérifie si l'on a un caractère alphanumérique. C'est équivalent à 
 (isalpha(c) || isdigit(c)).
 __________________________________________________________________
 
-###### isascii		int ft_isascii(int c)
+#### *isascii*		
+###### int ft_isascii(int c)
 
 Vérifie si c est un unsigned char sur 7 bits, entrant dans le jeu 
 de caractères ASCII.
 __________________________________________________________________
 
-###### isprint		int	ft_isprint(int c)
+#### *isprint*		
+###### int	ft_isprint(int c)
 
 Vérifie s'il s'agit d'un caractère imprimable, y compris l'espace.
 __________________________________________________________________
 
-###### strlen		size_t	ft_strlen(const char *s) 
+#### *strlen*		
+###### size_t	ft_strlen(const char *s) 
 
 Calculer la longueur d'une chaîne de caractères  
 __________________________________________________________________
 
-###### memset          void *ft_memset(void *b, int c, size_t len)
+#### *memset          
+###### void *ft_memset(void *b, int c, size_t len)
 
 
 La fonction memset() remplit les n premiers octets de la zone 
 mémoire pointée par s avec l'octet c.
 __________________________________________________________________
 
-###### bzero	    void ft_bzero(void *s, size_t n)
+#### *bzero	    
+###### void ft_bzero(void *s, size_t n)
 
 La fonction bzero() met à 0 (octets contenant « \0 ») les n 
 premiers octets du bloc pointé par s.
 __________________________________________________________________
 
-###### memcpy  void *ft_memcpy(void *dst, const void *src, size_t n)
+#### *memcpy  
+###### void *ft_memcpy(void *dst, const void *src, size_t n)
 
 La fonction memcpy copie n octets depuis la zone mémoire src 
 vers la zone mémoire dest. Les deux zones ne doivent pas se 
 chevaucher. Si c'est le cas, utilisez plutôt memmove(3).  
 __________________________________________________________________
 
-###### memmove void	*ft_memmove(void *dst, const void *src, size_t len)
+#### *memmove void	
+###### **ft_memmove(void *dst, const void *src, size_t len)
 
 
 La fonction memmove copie n octets depuis la zone mémoire src vers 
