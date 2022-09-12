@@ -2,7 +2,7 @@
 
 ![This is an image](https://zupimages.net/up/22/37/84dg.png)
 
-![image](https://zupimages.net/up/22/37/yqvu.png)
+![image](https://zupimages.net/up/22/37/dooy.png)
 
 
 Vérifie si l'on a un caractère alphabétique. Dans la localisation 
@@ -12,14 +12,12 @@ supplémentaires pour lesquels isalpha() est vrai, c'est-à-dire
 pour des lettres qui ne sont ni majuscules ni minuscules.
 __________________________________________________________________
 
-![image](https://zupimages.net/up/22/37/itt9.png)
+![image](https://zupimages.net/up/22/37/xhse.png)
 
 Vérifie si l'on a un chiffre (0 à 9).
 __________________________________________________________________
 
-#### *isalnum*		
-###### int ft_isalnum(int c)
-
+![image](https://zupimages.net/up/22/37/xhse.png)
 
 Vérifie si l'on a un caractère alphanumérique. C'est équivalent à 
 (isalpha(c) || isdigit(c)).
