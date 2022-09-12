@@ -34,31 +34,25 @@ __________________________________________________________________
 Vérifie s'il s'agit d'un caractère imprimable, y compris l'espace.
 __________________________________________________________________
 
-![image](https://zupimages.net/up/22/37/8dpz.png)
+![image](https://zupimages.net/up/22/37/ees2.png)
 
 Calculer la longueur d'une chaîne de caractères  
 __________________________________________________________________
 
-#### *memset*          
-###### void *ft_memset(void *b, int c, size_t len)
-
+![image](https://zupimages.net/up/22/37/wzwv.png)
 
 
 La fonction memset() remplit les n premiers octets de la zone 
 mémoire pointée par s avec l'octet c.
 __________________________________________________________________
 
-#### *bzero*	    
-###### void ft_bzero(void *s, size_t n)
-
+![image](https://zupimages.net/up/22/37/rnpt.png)
 
 La fonction bzero() met à 0 (octets contenant « \0 ») les n 
 premiers octets du bloc pointé par s.
 __________________________________________________________________
 
-#### *memcpy*  
-###### void *ft_memcpy(void *dst, const void *src, size_t n)
-
+![image](https://zupimages.net/up/22/37/1z64.png)
 
 La fonction memcpy copie n octets depuis la zone mémoire src 
 vers la zone mémoire dest. Les deux zones ne doivent pas se 
