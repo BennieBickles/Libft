@@ -101,7 +101,10 @@ $(NAME): $(SRC_OBJS)
 	ar rc $(NAME) $(SRC_OBJS)
 	ranlib $(NAME)
 	@echo "\n$(LOG_GREEN) >>>----------- Libft successfully created ! -----------<<<\n$(RESET)\n"
-                                           
+	@echo "$$PIKA"
+
+
+
                                            
 bonus:  $(NAME) $(BONUS_OBJS)
 	@echo "\n$(LOG_WHITE)\033[42m"Compiling Bonus ..."\033[0m"
@@ -109,6 +112,65 @@ bonus:  $(NAME) $(BONUS_OBJS)
 	ranlib $(NAME)
 	@echo "\n$(LOG_GREEN) >>>---------- Bonus successfully added ! ----------<<<$(RESET)\n"
 	@echo "$$SUCCESS"
+
+
+
+##############################    CLEAN    ####################################
+
+clean:
+	@echo "\n$(LOG_WHITE)\033[41m"Removing Libft ..."\033[0m"
+	rm -f $(SRC_OBJS) $(BONUS_OBJS)
+	@echo "\n$(LOG_RED) >>>----------- Object files deleted ... -----------<<<$(RESET)\n"
+
+fclean: clean
+	rm -f $(NAME)
+	@echo "\n$(LOG_RED)       >>>-----  Libft.a deleted too ! -----<<<$(RESET)\n"
+
+re: fclean all
+	@echo "$(LOG_YELLOW) >>>---- Cleaned and rebuilt everything for libft ! ----<<<$(RESET)\n"
+
+.PHONY: clean fclean all re
+
+
+
+##############################    HELP   ####################################
+
+help:
+	@echo "\n\n	------>	   Type $(LOG_GREEN)make$(RESET) to create $(LOG_WHITE)libft.a withous bonus$(RESET)."
+	@echo "	------>	   Type $(LOG_GREEN)make bonus$(RESET) to create $(LOG_WHITE)libft.a with bonus$(RESET).\n"
+	@echo "	------>	   Type $(LOG_RED)make clean$(RESET) to $(LOG_WHITE)delete .o files$(RESET)."
+	@echo "	------>	   Type $(LOG_RED)make fclean$(RESET) to $(LOG_WHITE)delete all$(RESET).\n\n"
+
+
+
+################################## ART #####################################
+
+
+info: pika
+
+define PIKA
+
+⣦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣿⣿⡏⠛⠦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠘⣿⡇⠀⠀⠈⠛⢦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀
+⠀⠘⣧⠀⠀⠀⠀⠀⠉⠳⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⠴⠒⠚⣿⣿⡿
+⠀⠀⠘⢧⠀⠀⠀⠀⠀⠀⠈⠳⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡤⠖⠚⠉⠁⠀⠀⠀⢰⣿⡟⠀
+⠀⠀⠀⠈⢷⡀⠀⠀⠀⠀⠀⠀⠈⠛⠒⠒⠒⠒⠒⠒⠂⠀⠀⠤⠤⠤⠖⠚⠉⠁⠀⠀⠀⠀⠀⠀⠀⢀⣿⠏⠀⠀
+⠀⠀⠀⠀⠀⠻⣄⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⡄⢀⣀⠀⣤⠄⣰⣄⠀⢰⣤⠀⢠⣤⣤⣤⣤⣤⠀⠀⣦⣄⠀⣠⡦⢀⣠⣤⣄⡀⢠⣤⣤⣄⢠⣤⣤⣤⠀⠀⣠⣤⣄⠀
+⠀⠀⠀⠀⠀⠀⠙⣷⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⣠⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣷⣼⢿⣼⡟⢀⣿⢿⡄⢸⡿⣷⣸⡇⠀⢹⡇⠀⠀⠀⢹⣿⣶⣿⡇⢼⡏⠀⢹⣷⢸⣧⣼⡿⢹⣿⣴⡦⠀⠀⢩⣽⠿⠀
+⠀⠀⠀⠀⠀⠀⢠⠏⠀⠀⠀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢳⡤⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡟⠘⣿⠃⣼⠛⠛⣿⣸⡷⠘⢿⡇⠀⢸⡧⠀⠀⠀⢼⡇⠉⢸⣧⠘⠿⢶⠿⠃⢸⡧⠹⣧⢸⣿⣶⣶⠀⠀⠰⡿⠆⠀
+⠀⠀⠀⠀⠀⢠⠏⠀⠀⠀⢰⣏⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡶⣿⣦⠀⠀⠀⠀⠀⢹⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⡞⠀⠀⠀⠀⠈⠻⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⡿⠀⠀⠀⠀⠀⠀⣷⠀⠀⠀⠀⠀⠀⠀⠀⠸⠿⣷⠿⠟⢷⣄⣾⠟⣿⡿⢷⡆⣿⡿⢿⠃⠀⠀⣿⣆⢠⣾⡇⢀⣾⣇⠀⢸⣇⣴⠟⠉⣿⠿⠿⠀⠀⢸⡿⢿⣶⢀⣶⠿⢷⣦⢸⣷⣄⢸⡇⢸⡇⠀⣿ ⣾⡿⠷⠀
+⠀⠀⠀⠀⢸⢁⣤⣤⣤⡀⠀⠀⠀⠀⠀⠀⠸⠿⠗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠈⣿⡏⠀⣿⡷⠿⠃⣿⡟⠛⠀⠀⠀⣿⢻⡟⣿⡇⣼⣧⣿⡆⢸⡟⣷⡄⠀⣿⠛⠛⠀⠀⢸⣟⢛⣷⠺⣧⡀⣠⣿⢹⡏⢻⣾⡇⢸⣧⢀⣿ ⣝⠛⣷⡆
+⠀⠀⠀⠀⡿⢿⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀⢀⣀⣀⡀⠀⠀⠀⠀⠀⠀⢰⣾⣿⣿⣷⡄⠀⠈⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠀⠀⠀⠛⠃ ⠛⠃⠀⠀⠛⠛⠛⠃⠀⠐⠛⠂⠀⠛⠛⠛⠀⠘⠛⠚⠃⠈⠛⠒⠛⠛⠛⠀⠀⠘⠛⠛⠋⠀⠉⠛⠋⠁⠘⠓⠀⠙⠓⠀⠙⠛⠉⠀⠙⠛⠋⠀
+⠀⠀⠀⠀⢷⠈⠙⠛⠋⠁⠀⠀⠀⠀⠀⢰⠟⠉⠀⠉⢻⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⠇⠀⠀⢹⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢘⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢦⣀⠀⣀⡼⠀⠀⠀⠀⠀⠀⠈⠉⠉⠁⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀
+⠀   ⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+endef
+export PIKA
+
+#################################################################################################
+
 
 info : success
 
@@ -143,34 +205,5 @@ endef
 export SUCCESS
 
 success:
-	clear
 	@echo "$$SUCCESS"
 
-
-
-
-##############################    CLEAN    ####################################
-
-clean:
-	@echo "\n$(LOG_WHITE)\033[41m"Removing Libft ..."\033[0m"
-	rm -f $(SRC_OBJS) $(BONUS_OBJS)
-	@echo "\n$(LOG_RED) >>>----------- Object files deleted ... -----------<<<$(RESET)\n"
-
-fclean: clean
-	rm -f $(NAME)
-	@echo "\n$(LOG_RED)       >>>-----  Libft.a deleted too ! -----<<<$(RESET)\n"
-
-re: fclean all
-	@echo "$(LOG_YELLOW) >>>---- Cleaned and rebuilt everything for libft ! ----<<<$(RESET)\n"
-
-.PHONY: clean fclean all re
-
-
-
-##############################    HELP   ####################################
-
-help:
-	@echo "\n\n	------>	   Type $(LOG_GREEN)make$(RESET) to create $(LOG_WHITE)libft.a withous bonus$(RESET)."
-	@echo "	------>	   Type $(LOG_GREEN)make bonus$(RESET) to create $(LOG_WHITE)libft.a with bonus$(RESET).\n"
-	@echo "	------>	   Type $(LOG_RED)make clean$(RESET) to $(LOG_WHITE)delete .o files$(RESET)."
-	@echo "	------>	   Type $(LOG_RED)make fclean$(RESET) to $(LOG_WHITE)delete all$(RESET).\n\n"
