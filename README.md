@@ -2,6 +2,14 @@
 
 ![This is an image](https://zupimages.net/up/22/37/84dg.png)
 
+<p align="center">
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/BennieBickles/Libft?color=blueviolet" />
+	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/BennieBickles/Libft?color=blueviolet" />
+	<img alt="Code language count" src="https://img.shields.io/github/languages/count/BennieBickles/Libft?color=blue" />
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/BennieBickles/Libft?color=blue" />
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/BennieBickles/Libft?color=brightgreen" />
+</p>
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
