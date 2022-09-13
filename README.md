@@ -35,18 +35,18 @@ __________________________________________________________________
 
 Libc functions | Additional functions | Bonus Functions | Personal Functions
 :----------- | :-----------: | :-----------: | -----------
-[`ft_isalpha`](srcs/ft_isalpha.c)	| [`ft_split`](srcs/ft_split.c)
-[`ft_isdigit`](srcs/ft_isdigit.c)	| [`ft_substr`](srcs/ft_substr.c)
-[`ft_isalnum`](srcs/ft_isalnum.c)	| [`ft_strtrim`](srcs/ft_strtrim.c)
-[`ft_isascii`](srcs/ft_isascii.c)	| [`ft_strjoin`](srcs/ft_strjoin.c)
-[`ft_isprint`](srcs/ft_isprint.c)	| [`ft_strmapi`](srcs/ft_strmapi.c)
-[`ft_strlen`](srcs/ft_strlen.c)		| [`ft_itoa`](srcs/ft_itoa.c)
-[`ft_memset`](srcs/ft_memset.c)
-[`ft_bzero`](srcs/ft_bzero.c)
-[`ft_memcpy`](srcs/ft_memcpy.c)
-[`ft_memmove`](srcs/ft_memmove.c)
-[`ft_strlcpy`](srcs/ft_strlcpy.c)
-[`ft_strlcat`](srcs/ft_strlcat.c)
+[`ft_isalpha`](srcs/ft_isalpha.c)	| [`ft_split`](srcs/ft_split.c)			| [`ft_lstnew`](srcs/ft_lstnew.c)
+[`ft_isdigit`](srcs/ft_isdigit.c)	| [`ft_substr`](srcs/ft_substr.c)		| [`ft_lstadd_back`](srcs/ft_lstadd_back.c)
+[`ft_isalnum`](srcs/ft_isalnum.c)	| [`ft_strtrim`](srcs/ft_strtrim.c)		| [`ft_lstadd_front`](srcs/ft_lstadd_front.c)
+[`ft_isascii`](srcs/ft_isascii.c)	| [`ft_strjoin`](srcs/ft_strjoin.c)		| [`ft_lstsize`](srcs/ft_lstsize.c)
+[`ft_isprint`](srcs/ft_isprint.c)	| [`ft_strmapi`](srcs/ft_strmapi.c)		| [`ft_lstlast`](srcs/ft_lstlast.c)
+[`ft_strlen`](srcs/ft_strlen.c)		| [`ft_itoa`](srcs/ft_itoa.c)			| [`ft_lstdelone`](srcs/ft_lstdelone.c)
+[`ft_memset`](srcs/ft_memset.c)		| [`ft_striteri`](srcs/ft_striteri.c)		| [`ft_lstclear`](srcs/ft_lstclear.c)
+[`ft_bzero`](srcs/ft_bzero.c)		| [`ft_putchar_fd`](srcs/ft_putchar_fd.c)	| [`ft_lstiter`](srcs/ft_lstiter.c)
+[`ft_memcpy`](srcs/ft_memcpy.c)		| [`ft_putnbr_fd`](srcs/ft_putnbr_fd.c)		| [`ft_lstmap`](srcs/ft_lstmap.c)
+[`ft_memmove`](srcs/ft_memmove.c)	| [`ft_putstr_fd`](srcs/ft_putstr_fd.c)	
+[`ft_strlcpy`](srcs/ft_strlcpy.c)	| [`ft_putendl_fd`](srcs/ft_putendl_fd.c)
+[`ft_strlcat`](srcs/ft_strlcat.c)	 
 [`ft_toupper`](srcs/ft_toupper.c) 
 [`ft_tolower`](srcs/ft_tolower.c)
 [`ft_strchr`](srcs/ft_strchr.c)
@@ -64,37 +64,6 @@ Libc functions | Additional functions | Bonus Functions | Personal Functions
 [`ft_strjoin`](srcs/ft_strjoin.c)
 [`ft_strmapi`](srcs/ft_strmapi.c)
 [`ft_itoa`](srcs/ft_itoa.c)
-`isalpha`     | 
-`isdigit`     | 
-`isalnum`     | 
-`isascii`     | 
-`isprint`     | 
-`strlen`      | 
-`memset`      | 
-`bzero`       | 
-`memcpy`      | 
-`memmove`     | 
-`strlcpy`     | 
-`strlcat`     | 
-`toupper`     | 
-`tolower`     | Remove objects files and the library.
-`strchr`      | Re-compile the library.
-`strrchr`     | Compile the library with bonus.
-`strncmp`     | Need some help ?
-`memchr`      | Compile the library.
-`memcmp`      | Remove objects files.
-`strnstr`     | Remove objects files and the library.
-`atoi`        | Re-compile the library.
-`calloc`      | Compile the library with bonus.
-`strdup`      | Need some help ?
-`split`       | Compile the library.
-`substr`      | Remove objects files.
-`strtrim`     | Remove objects files and the library.
-`strjoin`     | Re-compile the library.
-`strmapi`     | Compile the library with bonus.
-`itoa`        | Need some help ?
-
-
 
 
 
