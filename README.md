@@ -2,6 +2,18 @@
 
 ![This is an image](https://zupimages.net/up/22/37/84dg.png)
 
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+Command       |  Description
+:-------------|:-------------
+`make`        | Compile the library.
+`make clean`  | Remove objects files.
+`make fclean` | Remove objects files and the library.
+`make re`     | Re-compile the library.
+`make bonus`  | Compile the library with bonus.
+`make help`   | Need some help ?
 __________________________________________________________________
 
 
