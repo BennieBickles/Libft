@@ -31,7 +31,7 @@ __________________________________________________________________
 
 __________________________________________________________________
 
-## Funstions
+## Functions
 
 Command       |  Link
 :-------------|:-------------
@@ -47,23 +47,23 @@ Command       |  Link
 `memmove`     | [`ft_memmove`](srcs/ft_memmove.c)
 `strlcpy`     | [`ft_strlcpy`](srcs/ft_strlcpy.c)
 `strlcat`     | [`ft_strlcat`](srcs/ft_strlcat.c)
-`toupper`     | Remove objects files.
-`tolower`     | Remove objects files and the library.
-`strchr`      | Re-compile the library.
-`strrchr`     | Compile the library with bonus.
-`strncmp`     | Need some help ?
-`memchr`      | Compile the library.
-`memcmp`      | Remove objects files.
-`strnstr`     | Remove objects files and the library.
-`atoi`        | Re-compile the library.
-`calloc`      | Compile the library with bonus.
-`strdup`      | Need some help ?
-`split`       | Compile the library.
-`substr`      | Remove objects files.
-`strtrim`     | Remove objects files and the library.
-`strjoin`     | Re-compile the library.
-`strmapi`     | Compile the library with bonus.
-`itoa`        | Need some help ?
+`toupper`     | [`ft_toupper`](srcs/ft_toupper.c) 
+`tolower`     | [`ft_tolower`](srcs/ft_tolower.c)
+`strchr`      | [`ft_strchr`](srcs/ft_strchr.c)
+`strrchr`     | [`ft_strrchr`](srcs/ft_strrchr.c)
+`strncmp`     | [`ft_strncmp`](srcs/ft_strncmp.c)
+`memchr`      | [`ft_memchr`](srcs/ft_memchr.c)
+`memcmp`      | [`ft_memcmp`](srcs/ft_memcmp.c)
+`strnstr`     | [`ft_strnstr`](srcs/ft_strnstr.c)
+`atoi`        | [`ft_atoi`](srcs/ft_atoi.c)
+`calloc`      | [`ft_calloc`](srcs/ft_calloc.c)
+`strdup`      | [`ft_strdup`](srcs/ft_strdup.c)
+`split`       | [`ft_split`](srcs/ft_split.c)
+`substr`      | [`ft_substr`](srcs/ft_substr.c)
+`strtrim`     | [`ft_strtrim`](srcs/ft_strtrim.c)
+`strjoin`     | [`ft_strjoin`](srcs/ft_strjoin.c)
+`strmapi`     | [`ft_strmapi`](srcs/ft_strmapi.c)
+`itoa`        | [`ft_itoa`](srcs/ft_itoa.c)
 
 
 
