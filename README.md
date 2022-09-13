@@ -29,6 +29,45 @@ __________________________________________________________________
 * [`Image to ASCII Art`](https://emojicombos.com/dot-art-generator)	
 * [`Text to ASCII Art`](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
+__________________________________________________________________
+
+## Funstions
+
+Command       |  Link
+:-------------|:-------------
+`isalpha`     | [`ft_isalpha`](srcs/ft_isalpha.c)
+`isdigit`     | [`ft_isdigit`](srcs/ft_isdigit.c)
+`isalnum`     | [`ft_isalnum`](srcs/ft_isalnum.c)
+`isascii`     | [`ft_isascii`](srcs/ft_isascii.c)
+`isprint`     | [`ft_isprint`](srcs/ft_isprint.c)
+`strlen`      | [`ft_strlen`](srcs/ft_strlen.c)
+`memset`      | [`ft_memset`](srcs/ft_memset.c)
+`bzero`       | [`ft_bzero`](srcs/ft_bzero.c)
+`memcpy`      | [`ft_memcpy`](srcs/ft_memcpy.c)
+`memmove`     | [`ft_memmove`](srcs/ft_memmove.c)
+`strlcpy`     | [`ft_strlcpy`](srcs/ft_strlcpy.c)
+`strlcat`     | [`ft_strlcat`](srcs/ft_strlcat.c)
+`toupper`     | Remove objects files.
+`tolower`     | Remove objects files and the library.
+`strchr`      | Re-compile the library.
+`strrchr`     | Compile the library with bonus.
+`strncmp`     | Need some help ?
+`memchr`      | Compile the library.
+`memcmp`      | Remove objects files.
+`strnstr`     | Remove objects files and the library.
+`atoi`        | Re-compile the library.
+`calloc`      | Compile the library with bonus.
+`strdup`      | Need some help ?
+`split`       | Compile the library.
+`substr`      | Remove objects files.
+`strtrim`     | Remove objects files and the library.
+`strjoin`     | Re-compile the library.
+`strmapi`     | Compile the library with bonus.
+`itoa`        | Need some help ?
+
+
+
+
 ![image](https://zupimages.net/up/22/37/dooy.png)
 
 Vérifie si l'on a un caractère alphabétique. Dans la localisation 
