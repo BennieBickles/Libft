@@ -24,6 +24,10 @@ Command       |  Description
 `make help`   | Need some help ?
 __________________________________________________________________
 
+## Usefull links
+
+* [`Image to ASCII Art`](https://emojicombos.com/dot-art-generator)	
+* [`Text to ASCII Art`](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
 ![image](https://zupimages.net/up/22/37/dooy.png)
 
