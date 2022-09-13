@@ -33,8 +33,8 @@ __________________________________________________________________
 
 ## Functions
 
-Libc functions | Additional functions | Bonus Functions | Personal Functions
-:----------- | :-----------: | :-----------: | -----------
+Libc functions | Additional functions | Bonus Functions 
+:----------- | :-----------: | :-----------: 
 [`ft_isalpha`](srcs/ft_isalpha.c)	| [`ft_split`](srcs/ft_split.c)			| [`ft_lstnew`](srcs/ft_lstnew.c)
 [`ft_isdigit`](srcs/ft_isdigit.c)	| [`ft_substr`](srcs/ft_substr.c)		| [`ft_lstadd_back`](srcs/ft_lstadd_back.c)
 [`ft_isalnum`](srcs/ft_isalnum.c)	| [`ft_strtrim`](srcs/ft_strtrim.c)		| [`ft_lstadd_front`](srcs/ft_lstadd_front.c)
