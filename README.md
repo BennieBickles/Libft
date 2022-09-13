@@ -58,13 +58,6 @@ Libc functions | Additional functions | Bonus Functions
 [`ft_atoi`](srcs/ft_atoi.c)
 [`ft_calloc`](srcs/ft_calloc.c)
 [`ft_strdup`](srcs/ft_strdup.c)
-[`ft_split`](srcs/ft_split.c)
-[`ft_substr`](srcs/ft_substr.c)
-[`ft_strtrim`](srcs/ft_strtrim.c)
-[`ft_strjoin`](srcs/ft_strjoin.c)
-[`ft_strmapi`](srcs/ft_strmapi.c)
-[`ft_itoa`](srcs/ft_itoa.c)
-
 
 
 ![image](https://zupimages.net/up/22/37/dooy.png)
