@@ -63,9 +63,7 @@ Libc functions | Additional functions | Bonus Functions
 
 _____________________________________________________
 
-[![rtfm](https://zupimages.net/up/22/37/cy9o.png)](https://www.youtube.com/watch?v=5p8wTOr8AbU)
-
-[![image](https://zupimages.net/up/22/37/ijv4.png)](https://linux.die.net/man/3/isalpha) [![image](https://zupimages.net/up/22/37/8vbf.png)](https://linux.die.net/man/3/isdigit)
+[![rtfm](https://zupimages.net/up/22/37/cy9o.png)](https://www.youtube.com/watch?v=5p8wTOr8AbU) [![image](https://zupimages.net/up/22/37/ijv4.png)](https://linux.die.net/man/3/isalpha) [![image](https://zupimages.net/up/22/37/8vbf.png)](https://linux.die.net/man/3/isdigit)
 [![image](https://zupimages.net/up/22/37/kqaz.png)](https://linux.die.net/man/3/isalnum) [![image](https://zupimages.net/up/22/37/ncnp.png)](https://linux.die.net/man/3/isascii)
 [![image](https://zupimages.net/up/22/37/l6zu.png)](https://linux.die.net/man/3/isprint) [![image](https://zupimages.net/up/22/37/vu8y.png)](https://linux.die.net/man/3/strlen)
 [![image](https://zupimages.net/up/22/37/y7m3.png)](https://linux.die.net/man/3/memset) [![image](https://zupimages.net/up/22/37/5z23.png)](https://linux.die.net/man/3/bzero)
