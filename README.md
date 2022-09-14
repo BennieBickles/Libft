@@ -60,6 +60,9 @@ Libc functions | Additional functions | Bonus Functions
 [`ft_calloc`](srcs/ft_calloc.c)
 [`ft_strdup`](srcs/ft_strdup.c)
 
+_____________________________________________________
+
+## Click the functions down below to see the man
 
 [![image](https://zupimages.net/up/22/37/dooy.png)](srcs/ft_isalpha.c)
 
