@@ -71,7 +71,7 @@ _____________________________________________________
 [![image](https://zupimages.net/up/22/37/3sta.png)](https://linux.die.net/man/3/memcpy) [![image](https://zupimages.net/up/22/37/tqlc.png)](https://linux.die.net/man/3/memmove)
 [![image](https://zupimages.net/up/22/37/szb0.png)](https://linux.die.net/man/3/strlcpy) [![image](https://zupimages.net/up/22/37/szb0.png)](https://linux.die.net/man/3/memcpy)
 [![image](https://zupimages.net/up/22/37/v687.png)](https://linux.die.net/man/3/toupper) [![image](https://zupimages.net/up/22/37/fdhx.png)](https://linux.die.net/man/3/tolower)
-[![image](https://zupimages.net/up/22/37/tqbw.png)](https://linux.die.net/man/3/strchr) [![image](https://zupimages.net/up/22/37/44o7.png)](https://linux.die.net/man/3/strrchr)
+[![image](https://zupimages.net/up/22/37/tqbw.png)](https://linux.die.net/man/3/strchr)    [![image](https://zupimages.net/up/22/37/44o7.png)](https://linux.die.net/man/3/strrchr)
 [![image](https://zupimages.net/up/22/37/msnh.png)](https://linux.die.net/man/3/strcmp) [![image](https://zupimages.net/up/22/37/hqxu.png)](https://linux.die.net/man/3/memchr)
 [![image](https://zupimages.net/up/22/37/mxu4.png)](https://linux.die.net/man/3/memcmp) [![image](https://zupimages.net/up/22/37/mzb6.png)](https://www.freebsd.org/cgi/man.cgi?query=strnstr&sektion=3)
 [![image](https://zupimages.net/up/22/37/0nqo.png)](https://linux.die.net/man/3/atoi) [![image](https://zupimages.net/up/22/37/wecj.png)](https://linux.die.net/man/3/calloc)
