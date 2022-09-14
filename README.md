@@ -24,7 +24,7 @@ Command       |  Description
 `make help`   | Need some help ?
 __________________________________________________________________
 
-## Usefull links
+## Useful links
 
 * [`Image to ASCII Art`](https://emojicombos.com/dot-art-generator)	
 * [`Text to ASCII Art`](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
