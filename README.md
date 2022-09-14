@@ -96,28 +96,13 @@ __________________________________________________________________
 __________________________________________________________________
 [![image](https://zupimages.net/up/22/37/vaox.png)](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/) [![image](https://zupimages.net/up/22/37/re64.png)](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/fzae.png)](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
+[![image](https://zupimages.net/up/22/37/a56u.png)](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/) [![image](https://zupimages.net/up/22/37/1zxo.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/3i49.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
+[![image](https://zupimages.net/up/22/37/1emk.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf) [![image](https://zupimages.net/up/22/37/011q.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/s0zg.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
+[![image](https://zupimages.net/up/22/37/8o8k.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf) [![image](https://zupimages.net/up/22/37/xc2y.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/tud3.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
+[![image](https://zupimages.net/up/22/37/kupe.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf) [![image](https://zupimages.net/up/22/37/1xie.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/hsqg.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
-
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/u0ma.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
-
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/40qi.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
-
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/d036.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
-
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/ax8j.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
-
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/9qim.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
+[![image](https://zupimages.net/up/22/37/w3os.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf) [![image](https://zupimages.net/up/22/37/mq35.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
 __________________________________________________________________
