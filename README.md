@@ -12,7 +12,7 @@
 [![img](https://zupimages.net/up/22/37/vgwy.png)](#about-the-project)
 [![useful](https://zupimages.net/up/22/37/uhqz.png)](#useful-links)
 [![fun](https://zupimages.net/up/22/37/qe6y.png)](#functions)
-[![rt](https://zupimages.net/up/22/37/hvq2.png)](#click-the-rtfm-down)
+[![rt](https://zupimages.net/up/22/37/hvq2.png)](#click-the-rtfm)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
