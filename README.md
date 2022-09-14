@@ -68,36 +68,22 @@ _____________________________________________________
 __________________________________________________________________
 [![image](https://zupimages.net/up/22/37/kqaz.png)](https://linux.die.net/man/3/isalnum) [![image](https://zupimages.net/up/22/37/ncnp.png)](https://linux.die.net/man/3/isascii)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/zi8g.png)](https://linux.die.net/man/3/isprint)
+[![image](https://zupimages.net/up/22/37/l6zu.png)](https://linux.die.net/man/3/isprint) [![image](https://zupimages.net/up/22/37/vu8y.png)](https://linux.die.net/man/3/strlen)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/ees2.png)](https://linux.die.net/man/3/strlen)
+[![image](https://zupimages.net/up/22/37/y7m3.png)](https://linux.die.net/man/3/memset) [![image](https://zupimages.net/up/22/37/5z23.png)](https://linux.die.net/man/3/bzero)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/f6wz.png)](https://linux.die.net/man/3/memset)
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/rnpt.png)](https://linux.die.net/man/3/bzero)
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/llk8.png)](https://linux.die.net/man/3/memcpy)
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/nr8m.png)](https://linux.die.net/man/3/memmove)
+[![image](https://zupimages.net/up/22/37/3sta.png)](https://linux.die.net/man/3/memcpy) [![image](https://zupimages.net/up/22/37/tqlc.png)](https://linux.die.net/man/3/memmove)
 __________________________________________________________________
 [![image](https://zupimages.net/up/22/37/szb0.png)](https://linux.die.net/man/3/strlcpy) [![image](https://zupimages.net/up/22/37/szb0.png)](https://linux.die.net/man/3/memcpy)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/jgp6.png)](https://linux.die.net/man/3/toupper)
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/6ja5.png)](https://linux.die.net/man/3/tolower)
+[![image](https://zupimages.net/up/22/37/v687.png)](https://linux.die.net/man/3/toupper) [![image](https://zupimages.net/up/22/37/fdhx.png)](https://linux.die.net/man/3/tolower)
 __________________________________________________________________
 [![image](https://zupimages.net/up/22/37/tqbw.png)](https://linux.die.net/man/3/strchr) [![image](https://zupimages.net/up/22/37/44o7.png)](https://linux.die.net/man/3/strrchr)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/8nzy.png)](https://linux.die.net/man/3/strcmp)
+[![image](https://zupimages.net/up/22/37/msnh.png)](https://linux.die.net/man/3/strcmp) [![image](https://zupimages.net/up/22/37/hqxu.png)](https://linux.die.net/man/3/memchr)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/nydq.png)](https://linux.die.net/man/3/memchr)
+[![image](https://zupimages.net/up/22/37/mxu4.png)](https://linux.die.net/man/3/memcmp) [![image](https://zupimages.net/up/22/37/mzb6.png)](https://www.freebsd.org/cgi/man.cgi?query=strnstr&sektion=3)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/bedt.png)](https://linux.die.net/man/3/memcmp)
-__________________________________________________________________
-
-[![image](https://zupimages.net/up/22/37/c744.png)](https://www.freebsd.org/cgi/man.cgi?query=strnstr&sektion=3)
-__________________________________________________________________
-
 [![image](https://zupimages.net/up/22/37/h12s.png)](https://linux.die.net/man/3/atoi)
 __________________________________________________________________
 [![image](https://zupimages.net/up/22/37/3bik.png)](https://linux.die.net/man/3/calloc)
