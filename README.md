@@ -63,7 +63,7 @@ Libc functions | Additional functions | Bonus Functions
 
 _____________________________________________________
 
-## Click the functions down below to see the man
+[[!rtfm](https://zupimages.net/up/22/37/cy9o.png)](https://www.youtube.com/watch?v=5p8wTOr8AbU)
 
 [![image](https://zupimages.net/up/22/37/ijv4.png)](https://linux.die.net/man/3/isalpha) [![image](https://zupimages.net/up/22/37/8vbf.png)](https://linux.die.net/man/3/isdigit)
 [![image](https://zupimages.net/up/22/37/kqaz.png)](https://linux.die.net/man/3/isalnum) [![image](https://zupimages.net/up/22/37/ncnp.png)](https://linux.die.net/man/3/isascii)
