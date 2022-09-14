@@ -17,8 +17,12 @@ NAME =	libft.a
 INC = libft.h
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
-C = \033[1;34m
+INCLUDEFOLDERS := -I include/
 
+SOURCES_FOLDER := srcs/
+OBJECTS_FOLDER := objs/
+
+vpath %.c srcs
 
 ##############################     FILES     ####################################
 
@@ -71,7 +75,10 @@ BONUS = ft_lstnew.c\
 
 BONUS_OBJS = $(BONUS:.c=.o)
 
-
+SRC_OBJS := $(addprefix $(OBJECTS_FOLDER), $(SRC_OBJS))
+SRC := $(addprefix $(SOURCES_FOLDER), $(SRC))
+BONUS_OBJS := $(addprefix $(OBJECTS_FOLDER), $(BONUS_OBJS))
+BONUS := $(addprefix $(SOURCES_FOLDER), $(BONUS))
 
 ##############################     COLORS    ####################################
 
@@ -96,6 +103,12 @@ LOG_WHITE		= \033[1;37m
 
 all: $(NAME)
 
+objs/%.o: %.c
+	@mkdir -p $(dir $@)
+	$(CC) $(CFLAGS) $(INCLUDEFOLDERS) -c $(subst __,/,$<) -o $@
+	@printf "$(LOG_GREEN)✓   $(RESET)"
+	@echo $<
+
 $(NAME): $(SRC_OBJS)
 	@echo "\n$(LOG_WHITE)\033[42m"Compiling Libft ..."\033[0m"
 	ar rc $(NAME) $(SRC_OBJS)
@@ -119,7 +132,8 @@ bonus:  $(NAME) $(BONUS_OBJS)
 
 clean:
 	@echo "\n$(LOG_WHITE)\033[41m"Removing Libft ..."\033[0m"
-	rm -f $(SRC_OBJS) $(BONUS_OBJS)
+	rm -rf $(OBJECTS_FOLDER) $(SRC_OBJS) $(BONUS_OBJS)
+	@ranlib $(NAME)
 	@echo "\n$(LOG_RED) >>>----------- Object files deleted ... -----------<<<$(RESET)\n"
 
 fclean: clean
