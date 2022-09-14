@@ -84,30 +84,17 @@ __________________________________________________________________
 __________________________________________________________________
 [![image](https://zupimages.net/up/22/37/mxu4.png)](https://linux.die.net/man/3/memcmp) [![image](https://zupimages.net/up/22/37/mzb6.png)](https://www.freebsd.org/cgi/man.cgi?query=strnstr&sektion=3)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/h12s.png)](https://linux.die.net/man/3/atoi)
+[![image](https://zupimages.net/up/22/37/0nqo.png)](https://linux.die.net/man/3/atoi) [![image](https://zupimages.net/up/22/37/wecj.png)](https://linux.die.net/man/3/calloc)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/3bik.png)](https://linux.die.net/man/3/calloc)
+[![image](https://zupimages.net/up/22/37/172j.png)](https://linux.die.net/man/3/strdup) [![image](https://zupimages.net/up/22/37/q9aa.png)](https://manpages.org/functionsubstr/3)
 __________________________________________________________________
-
-[![image](https://zupimages.net/up/22/37/b238.png)](https://linux.die.net/man/3/strdup)
+[![image](https://zupimages.net/up/22/37/jx52.png)](https://docs.oracle.com/cd/E19253-01/819-6958/gelrb/index.html) [![image](https://zupimages.net/up/22/37/nn5w.png)](https://man.cx/strltrim(3))
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/o8vy.png)](https://manpages.org/functionsubstr/3)
+[![image](https://zupimages.net/up/22/37/1xwo.png)](https://h-deb.clg.qc.ca/Sujets/AuSecours/Fonction-split.html) [![image](https://zupimages.net/up/22/37/qatf.png)](https://www.mkssoftware.com/docs/man3/itoa.3.asp)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/h3bf.png)](https://docs.oracle.com/cd/E19253-01/819-6958/gelrb/index.html)
+[![image](https://zupimages.net/up/22/37/0ioh.png)](https://velog.io/@jungjaedev/ftstrmapi) [![image](https://zupimages.net/up/22/37/rnz0.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/t8ar.png)](https://man.cx/strltrim(3))
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/9dme.png)](https://h-deb.clg.qc.ca/Sujets/AuSecours/Fonction-split.html)
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/li2p.png)](https://www.mkssoftware.com/docs/man3/itoa.3.asp)
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/19az.png)](https://velog.io/@jungjaedev/ftstrmapi)
-_________________________________________________________________
-[![image](https://zupimages.net/up/22/37/61qy.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/v888.png)](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
-__________________________________________________________________
-[![image](https://zupimages.net/up/22/37/ca55.png)](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
+[![image](https://zupimages.net/up/22/37/vaox.png)](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/) [![image](https://zupimages.net/up/22/37/re64.png)](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
 __________________________________________________________________
 [![image](https://zupimages.net/up/22/37/fzae.png)](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)
 __________________________________________________________________
@@ -115,7 +102,7 @@ __________________________________________________________________
 __________________________________________________________________
 [![image](https://zupimages.net/up/22/37/s0zg.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
 __________________________________________________________________
-[![image](https://zupimages.net/up/22/37/tud3.png)]https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
+[![image](https://zupimages.net/up/22/37/tud3.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
 __________________________________________________________________
 [![image](https://zupimages.net/up/22/37/hsqg.png)](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
 
