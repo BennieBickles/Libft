@@ -64,7 +64,7 @@ _____________________________________________________
 
 ## Click the functions down below to see the man
 
-[![image](https://zupimages.net/up/22/37/dooy.png)](srcs/ft_isalpha.c)
+[![image](https://zupimages.net/up/22/37/dooy.png)](https://linux.die.net/man/3/isalpha)
 
 Vérifie si l'on a un caractère alphabétique. Dans la localisation 
 "C" standard, c'est équivalent à (isupper(c) || islower(c)). Dans 
@@ -72,46 +72,46 @@ certaines localisations, il peut y avoir des caractères
 supplémentaires pour lesquels isalpha() est vrai, c'est-à-dire 
 pour des lettres qui ne sont ni majuscules ni minuscules.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/xhse.png)
+[![image](https://zupimages.net/up/22/37/xhse.png)](https://linux.die.net/man/3/isdigit)
 
 Vérifie si l'on a un chiffre (0 à 9).
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/16qw.png)
+[![image](https://zupimages.net/up/22/37/16qw.png)](https://linux.die.net/man/3/isalnum)
 
 Vérifie si l'on a un caractère alphanumérique. C'est équivalent à 
 (isalpha(c) || isdigit(c)).
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/jsax.png)
+[![image](https://zupimages.net/up/22/37/jsax.png)](https://linux.die.net/man/3/isascii)
 
 Vérifie si c est un unsigned char sur 7 bits, entrant dans le jeu 
 de caractères ASCII.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/zi8g.png)
+[![image](https://zupimages.net/up/22/37/zi8g.png)](https://linux.die.net/man/3/isprint)
 
 Vérifie s'il s'agit d'un caractère imprimable, y compris l'espace.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/ees2.png)
+[![image](https://zupimages.net/up/22/37/ees2.png)](https://linux.die.net/man/3/strlen)
 
 Calculer la longueur d'une chaîne de caractères  
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/f6wz.png)
+[![image](https://zupimages.net/up/22/37/f6wz.png)](https://linux.die.net/man/3/memset)
 
 
 La fonction memset() remplit les n premiers octets de la zone 
 mémoire pointée par s avec l'octet c.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/rnpt.png)
+[![image](https://zupimages.net/up/22/37/rnpt.png)](https://linux.die.net/man/3/bzero)
 
 La fonction bzero() met à 0 (octets contenant « \0 ») les n 
 premiers octets du bloc pointé par s.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/llk8.png)
+[![image](https://zupimages.net/up/22/37/llk8.png)](https://linux.die.net/man/3/memcpy)
 
 La fonction memcpy copie n octets depuis la zone mémoire src 
 vers la zone mémoire dest. Les deux zones ne doivent pas se 
 chevaucher. Si c'est le cas, utilisez plutôt memmove().  
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/nr8m.png)
+[![image](https://zupimages.net/up/22/37/nr8m.png)](https://linux.die.net/man/3/memmove)
 
 La fonction memmove copie n octets depuis la zone mémoire src vers 
 la zone mémoire dest. Les deux zones peuvent se chevaucher : la 
@@ -119,7 +119,7 @@ copie se passe comme si les octets de src étaient d'abord copiés
 dans une zone temporaire qui ne chevauche ni src ni dest, et les 
 octets sont ensuite copiés de la zone temporaire vers dest.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/szb0.png) ![image](https://zupimages.net/up/22/37/szb0.png)
+[![image](https://zupimages.net/up/22/37/szb0.png)](https://linux.die.net/man/3/strlcpy) [![image](https://zupimages.net/up/22/37/szb0.png)](https://linux.die.net/man/3/memcpy)
 
 Les fonctions strlcpy() et strlcat() copient et concatènent 
 respectivement des chaînes. Ils sont conçus pour être des 
@@ -135,24 +135,24 @@ et strlcat() ne fonctionnent que sur les vraies chaînes ''C''.
 Cela signifie que pour strlcpy() src doit être terminé par NUL 
 et pour strlcat() src et dst doivent être terminés par NUL.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/jgp6.png)
+[![image](https://zupimages.net/up/22/37/jgp6.png)](https://linux.die.net/man/3/toupper)
 
 La fonction toupper() convertit la lettre c en majuscule si 
 c'est possible.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/6ja5.png)
+[![image](https://zupimages.net/up/22/37/6ja5.png)](https://linux.die.net/man/3/tolower)
 
 La fonction tolower() convertit la lettre c en minuscule si 
 c'est possible.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/tqbw.png) ![image](https://zupimages.net/up/22/37/44o7.png)
+[![image](https://zupimages.net/up/22/37/tqbw.png)](https://linux.die.net/man/3/strchr) [![image](https://zupimages.net/up/22/37/44o7.png)](https://linux.die.net/man/3/strrchr)
 
 La fonction strchr() renvoie un pointeur sur la première 
 occurrence du caractère c dans la chaîne s.
 La fonction strrchr() renvoie un pointeur sur la dernière 
 occurrence du caractère c dans la chaîne s.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/8nzy.png)
+[![image](https://zupimages.net/up/22/37/8nzy.png)](https://linux.die.net/man/3/strcmp)
 
 La fonction strcmp() compare les deux chaînes s1 et s2. Elle 
 renvoie un entier négatif, nul, ou positif, si s1 est respecti-
@@ -160,14 +160,14 @@ vement inférieure, égale ou supérieure à s2.
 La fonction strncmp() est identique sauf qu'elle ne compare que 
 les n (au plus) premiers caractères de s1 et s2.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/nydq.png)
+[![image](https://zupimages.net/up/22/37/nydq.png)](https://linux.die.net/man/3/memchr)
 
 La fonction memchr() examine les n premiers octets de la zone 
 mémoire pointée par s à la recherche du caractère c. Le premier 
 octet correspondant à c (interprété comme un unsigned char) arrête 
 l'opération.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/bedt.png)
+[![image](https://zupimages.net/up/22/37/bedt.png)](https://linux.die.net/man/3/memcmp)
 
 La fonction memcmp() compare les n premiers octets des zones 
 mémoire s1 et s2. Elle renvoie un entier inférieur, égal, ou 
@@ -175,7 +175,7 @@ supérieur à zéro, si s1 est respectivement inférieure, égale
 ou supérieur à s2.  
 __________________________________________________________________
 
-![image](https://zupimages.net/up/22/37/c744.png)
+[![image](https://zupimages.net/up/22/37/c744.png)](https://www.freebsd.org/cgi/man.cgi?query=strnstr&sektion=3)
 
 La fonction strnstr() localise la première occurrence du terme nul
 chaîne notée peu dans la chaîne grande, où pas plus de len carac-
@@ -185,12 +185,12 @@ est une API spécifique à FreeBSD, elle ne doit être utilisé que
 lorsque la portabilité n'est pas un problème.
 __________________________________________________________________
 
-![image](https://zupimages.net/up/22/37/h12s.png)
+[![image](https://zupimages.net/up/22/37/h12s.png)](https://linux.die.net/man/3/atoi)
 
 La fonction atoi() convertit le début de la chaîne pointée par 
 nptr en entier de type int . Le résultat est identique à un appel.
 __________________________________________________________________
-![image](https://zupimages.net/up/22/37/3bik.png)
+[![image](https://zupimages.net/up/22/37/3bik.png)](https://linux.die.net/man/3/calloc)
 
 La fonction calloc() alloue la mémoire nécessaire pour un tableau 
 de nmemb éléments de size octets, et renvoie un pointeur vers la 
@@ -199,7 +199,7 @@ ou si size est nulle, calloc renvoie soit NULL ou un unique poin-
 teur qui pourra être passé ultérieurement à free() avec succès.
 __________________________________________________________________
 
-![image](https://zupimages.net/up/22/37/b238.png)
+[![image](https://zupimages.net/up/22/37/b238.png)](https://linux.die.net/man/3/strdup)
 
 La fonction strdup() renvoie un pointeur sur une nouvelle chaîne 
 de caractères qui est dupliquée depuis s. La mémoire occupée par 
