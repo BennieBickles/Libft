@@ -9,7 +9,7 @@
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/BennieBickles/Libft?color=brightgreen" />
 </p>
 
-[![img](https://zupimages.net/up/22/37/vgwy.png)](#about-the-project) [![useful](https://zupimages.net/up/22/37/uhqz.png)](#useful-links) [![fun](https://zupimages.net/up/22/37/qe6y.png)](#functions) [![rt](https://zupimages.net/up/22/37/hvq2.png)](https://github.com/BennieBickles/Libft#click-the-rtfm-down-below-to-learn-programming-)
+[![img](https://zupimages.net/up/22/37/vgwy.png)](#about-the-project) [![useful](https://zupimages.net/up/22/37/uhqz.png)](#useful-links) [![fun](https://zupimages.net/up/22/37/qe6y.png)](#functions) [![rt](https://zupimages.net/up/22/37/hvq2.png)](https://github.com/BennieBickles/Libft#click-the-rtfm-down-below-to-learn-programming-) [![tok](https://zupimages.net/up/22/37/sp2o.png)](#token)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
