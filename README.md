@@ -3,6 +3,7 @@
 	![This is an image](https://zupimages.net/up/22/37/84dg.png)
 
 <p align="center">
+	<![This is an image](https://zupimages.net/up/22/37/84dg.png)>
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/BennieBickles/Libft?color=blueviolet" />
 	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/BennieBickles/Libft?color=blueviolet" />
 	<img alt="Code language count" src="https://img.shields.io/github/languages/count/BennieBickles/Libft?color=blue" />
