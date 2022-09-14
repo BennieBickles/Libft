@@ -60,7 +60,7 @@ Libc functions | Additional functions | Bonus Functions
 [`ft_strdup`](srcs/ft_strdup.c)
 
 
-![image](https://zupimages.net/up/22/37/dooy.png)
+[![image](https://zupimages.net/up/22/37/dooy.png)](srcs/ft_isalpha.c)
 
 Vérifie si l'on a un caractère alphabétique. Dans la localisation 
 "C" standard, c'est équivalent à (isupper(c) || islower(c)). Dans 
