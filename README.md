@@ -74,3 +74,17 @@ __________________________________________________________________
 	<img src="https://zupimages.net/up/22/37/qinh.png" />
 	<img src="https://zupimages.net/up/22/37/onlz.png" />
 </p>
+
+<h2  align="center" id="author">Author</h2>
+<div align="center">
+	<div>
+		<strong> Sponsored by ... </strong> 
+		<br/><br/>    
+	<div>
+    	</div> 
+    	<div>
+	<a href="https://www.youtube.com/watch?v=bpmeHdOvoX0" target="_blank"><img align="center" alt="Eau" height="120" src="https://zupimages.net/up/22/37/uf9w.png"></a>
+	<a href="https://youtu.be/GJ0mO8P37Eg" target="_blank"><img align="center" alt="Instagram" height="60" src="https://zupimages.net/up/22/37/qinh.png"></a>
+	<a href = "https://youtu.be/_yrkWU6TDwQ"> <img align="center" alt="Gmail - benniebickles@proton.me" height="60" src="https://zupimages.net/up/22/37/onlz.png"></a>
+	</div>
+</div>
