@@ -70,5 +70,7 @@ _____________________________________________________
 __________________________________________________________________
 
 <p align="center">
-	<img src="https://zupimages.net/up/22/37/uf9w.png" / img src="https://zupimages.net/up/22/37/qinh.png" / img src="https://zupimages.net/up/22/37/onlz.png" />
+	<img src="https://zupimages.net/up/22/37/uf9w.png" />
+	<img src="https://zupimages.net/up/22/37/qinh.png" />
+	<img src="https://zupimages.net/up/22/37/onlz.png" />
 </p>
