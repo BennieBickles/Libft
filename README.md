@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://zupimages.net/up/22/37/84dg.png" />
+</p>
 
 ![This is an image](https://zupimages.net/up/22/37/84dg.png) 
 
