@@ -30,6 +30,8 @@ __________________________________________________________________
 * [`Image to ASCII Art`](https://emojicombos.com/dot-art-generator)	
 * [`Text to ASCII Art`](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 * [`Libft subject in english`](https://github.com/Surfi89/42cursus/blob/main/Subject%20PDFs/00_libft_en.pdf)
+* [`42 Header`](https://github.com/42Paris/42header)
+* [`42 Norminette`](https://github.com/alexandregv/norminette-vim)
 * [`Wanna see something hot ?`](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 
 
 __________________________________________________________________
